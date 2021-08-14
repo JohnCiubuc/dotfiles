@@ -1,0 +1,6 @@
+#ATTRS{idVendor}=="2a70", ATTRS{idProduct}=="9011"
+#ATTRS{idVendor}=="2a70", ATTRS{idProduct}=="9011"
+#ACTION=="add", ATTR{manufacturer}=="OnePlus", ENV{DISPLAY}=":0", ENV{XAUTHORITY}="/home/inathero/.Xauthority",  ENV{SYSTEMD_WANTS}=="oneplusscr.service"
+ACTION=="add", ATTR{manufacturer}=="OnePlus", ENV{DISPLAY}=":0", ENV{XAUTHORITY}="/home/inathero/.Xauthority", RUN+="/usr/bin/su inathero -c /home/inathero/Scripts/scr.sh"
+#SUBSYSTEM=="usb", ATTR{idProduct}=="9011", ATTR{idVendor}=="2a70", RUN+="/usr/bin/notify-send test"
+
