@@ -1,0 +1,59 @@
+sw_volume: 94
+audio_device_state:0:Fake
+audio_device_state:1:Pulse
+audio_device_state:0:JACK
+audio_device_state:1:Visualizer feed
+audio_device_state:1:HW 1
+audio_device_state:1:HW 2
+audio_device_state:0:HW 3
+audio_device_state:0:Uncompressed Stream
+audio_device_state:0:Flac Stream
+state: play
+current: 36
+time: 126.043000
+random: 1
+repeat: 1
+single: 1
+consume: 0
+crossfade: 6
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Dynatron/Aeternus/01 Hyperion Sunrise.flac
+1:Dynatron/Aeternus/02 Aeternus Theme.flac
+2:Dynatron/Aeternus/03 The Outer Rims of Traversed Space.flac
+3:Dynatron/Aeternus/04 Towards the Island Universe.flac
+4:Dynatron/Aeternus/05 Fluorescence of the Cepheids.flac
+5:Dynatron/Aeternus/06 Out There.flac
+6:Dynatron/Aeternus/07 Descend.flac
+7:Dynatron/Aeternus/08 Travelling the Wastelands.flac
+8:Dynatron/Aeternus/09 Not of this World.flac
+9:Dynatron/Aeternus/10 Escape.flac
+10:Dynatron/Aeternus/11 Hypersonic.flac
+11:Dynatron/Aeternus/12 A Beacon from Home.flac
+12:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 01 Space Operators.flac
+13:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 02 Fireburner.flac
+14:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 03 Propulsion Overdrive.flac
+15:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 04 Aurora Nights.flac
+16:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 05 Vox Magnetismi.flac
+17:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 06 The Pulsating Nebula.flac
+18:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 07 Andromeda Bleeding.flac
+19:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 08 Pulse Power.flac
+20:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 09 Wormhole.flac
+21:Dynatron/The Legacy Collection Vol. 1/01 Throttle Up.flac
+22:Dynatron/The Legacy Collection Vol. 1/02 Rise to the Stars.flac
+23:Dynatron/The Legacy Collection Vol. 1/03 37 Million Horsepower.flac
+24:Dynatron/The Legacy Collection Vol. 1/04 Intergalactic Highway.flac
+25:Dynatron/The Legacy Collection Vol. 1/05 Intro.flac
+26:Dynatron/The Legacy Collection Vol. 1/06 On the Edge of Space.flac
+27:Dynatron/The Legacy Collection Vol. 1/07 Save the Moment.flac
+28:Dynatron/The Legacy Collection Vol. 1/08 Cruiser.flac
+29:Dynatron/The Legacy Collection Vol. 1/09 Zero Gravity.flac
+30:Dynatron/The Legacy Collection Vol. 1/10 Cosmo Black.flac
+31:Dynatron/The Rigel Axiom/ 01 The Tristar.flac
+32:Dynatron/The Rigel Axiom/ 02 Contact.flac
+33:Dynatron/The Rigel Axiom/ 03 Stones.flac
+34:Dynatron/The Rigel Axiom/ 04 Storms.flac
+35:Dynatron/The Rigel Axiom/ 05 The Unknown.flac
+36:MODERNS/Solo/MODERNS - Terrestrial.flac
+playlist_end
