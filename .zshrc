@@ -139,6 +139,7 @@ alias pulse-start=" systemctl --user start pulseaudio.service pulseaudio.socket"
 alias pulse-stop=" systemctl --user stop pulseaudio.service pulseaudio.socket"
 
 
+
 porphans(){
 sudo  pacman -Rns $(pacman -Qtdq)
 }

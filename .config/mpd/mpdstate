@@ -1,4 +1,4 @@
-sw_volume: 94
+sw_volume: 69
 audio_device_state:0:Fake
 audio_device_state:1:Pulse
 audio_device_state:0:JACK
@@ -9,51 +9,152 @@ audio_device_state:0:HW 3
 audio_device_state:0:Uncompressed Stream
 audio_device_state:0:Flac Stream
 state: play
-current: 36
-time: 126.043000
-random: 1
+current: 125
+time: 178.063000
+random: 0
 repeat: 1
-single: 1
+single: 0
 consume: 0
 crossfade: 6
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Dynatron/Aeternus/01 Hyperion Sunrise.flac
-1:Dynatron/Aeternus/02 Aeternus Theme.flac
-2:Dynatron/Aeternus/03 The Outer Rims of Traversed Space.flac
-3:Dynatron/Aeternus/04 Towards the Island Universe.flac
-4:Dynatron/Aeternus/05 Fluorescence of the Cepheids.flac
-5:Dynatron/Aeternus/06 Out There.flac
-6:Dynatron/Aeternus/07 Descend.flac
-7:Dynatron/Aeternus/08 Travelling the Wastelands.flac
-8:Dynatron/Aeternus/09 Not of this World.flac
-9:Dynatron/Aeternus/10 Escape.flac
-10:Dynatron/Aeternus/11 Hypersonic.flac
-11:Dynatron/Aeternus/12 A Beacon from Home.flac
-12:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 01 Space Operators.flac
-13:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 02 Fireburner.flac
-14:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 03 Propulsion Overdrive.flac
-15:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 04 Aurora Nights.flac
-16:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 05 Vox Magnetismi.flac
-17:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 06 The Pulsating Nebula.flac
-18:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 07 Andromeda Bleeding.flac
-19:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 08 Pulse Power.flac
-20:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 09 Wormhole.flac
-21:Dynatron/The Legacy Collection Vol. 1/01 Throttle Up.flac
-22:Dynatron/The Legacy Collection Vol. 1/02 Rise to the Stars.flac
-23:Dynatron/The Legacy Collection Vol. 1/03 37 Million Horsepower.flac
-24:Dynatron/The Legacy Collection Vol. 1/04 Intergalactic Highway.flac
-25:Dynatron/The Legacy Collection Vol. 1/05 Intro.flac
-26:Dynatron/The Legacy Collection Vol. 1/06 On the Edge of Space.flac
-27:Dynatron/The Legacy Collection Vol. 1/07 Save the Moment.flac
-28:Dynatron/The Legacy Collection Vol. 1/08 Cruiser.flac
-29:Dynatron/The Legacy Collection Vol. 1/09 Zero Gravity.flac
-30:Dynatron/The Legacy Collection Vol. 1/10 Cosmo Black.flac
-31:Dynatron/The Rigel Axiom/ 01 The Tristar.flac
-32:Dynatron/The Rigel Axiom/ 02 Contact.flac
-33:Dynatron/The Rigel Axiom/ 03 Stones.flac
-34:Dynatron/The Rigel Axiom/ 04 Storms.flac
-35:Dynatron/The Rigel Axiom/ 05 The Unknown.flac
-36:MODERNS/Solo/MODERNS - Terrestrial.flac
+0:Merkwood Music/Oblivion/01 Destiny of Men.flac
+1:Merkwood Music/Oblivion/02 Fallen Angel.flac
+2:Merkwood Music/Oblivion/03 The Dragon.flac
+3:Merkwood Music/Oblivion/04 A Storm of Fire.flac
+4:Merkwood Music/Oblivion/05 The River Coursing.flac
+5:Merkwood Music/Oblivion/06 Rage.flac
+6:Merkwood Music/Oblivion/07 Compromise.flac
+7:Merkwood Music/Oblivion/08 Singularity.flac
+8:Merkwood Music/Oblivion/09 Untold.flac
+9:Merkwood Music/Oblivion/10 Raise the Sword.flac
+10:Merkwood Music/World of Tomorrow/01 This is Our Destiny.flac
+11:Merkwood Music/World of Tomorrow/02 Guardians of Stars.flac
+12:Merkwood Music/World of Tomorrow/03 Fate of a Hero.flac
+13:Merkwood Music/World of Tomorrow/04 World of Tomorrow.flac
+14:Merkwood Music/World of Tomorrow/05 Over the Frontiers.flac
+15:Merkwood Music/World of Tomorrow/06 The Dawn of Victory.flac
+16:Ivan Ognevskyi/Posthuman/01 Intro(New World).flac
+17:Ivan Ognevskyi/Posthuman/02 The Storm Incoming.flac
+18:Ivan Ognevskyi/Posthuman/03 Funk Killer.flac
+19:Ivan Ognevskyi/Posthuman/04 Neurons.flac
+20:Ivan Ognevskyi/Posthuman/05 BurniNation.flac
+21:Ivan Ognevskyi/Posthuman/06 Waiting for Hero.flac
+22:Ivan Ognevskyi/Posthuman/07 The Lost Melody.flac
+23:Ivan Ognevskyi/Posthuman/08 Feelings.flac
+24:Ivan Ognevskyi/Posthuman/09 Night City.flac
+25:Jo Blankenburg/Unravel/01 Loving and Feeling.flac
+26:Jo Blankenburg/Unravel/02 Anecdotes.flac
+27:Jo Blankenburg/Unravel/03 I Blossom.flac
+28:Jo Blankenburg/Unravel/04 One Two Tip Toe.flac
+29:Jo Blankenburg/Unravel/05 One More Mine.flac
+30:Jo Blankenburg/Unravel/06 Heartworm.flac
+31:Jo Blankenburg/Unravel/07 Glow.flac
+32:Jo Blankenburg/Unravel/08 Life Support.flac
+33:Jo Blankenburg/Unravel/09 State of Being.flac
+34:Jo Blankenburg/Unravel/10 Obsydia.flac
+35:Jo Blankenburg/Unravel/11 Born Free.flac
+36:Jo Blankenburg/Unravel/12 Indigo.flac
+37:Atomic Music Audio/Terminus/01 Terminus.flac
+38:Atomic Music Audio/Terminus/02 Rise Above.flac
+39:Atomic Music Audio/Terminus/03 Sacrifice.flac
+40:Atomic Music Audio/Terminus/04 Path to Glory.flac
+41:Atomic Music Audio/Terminus/05 Heroes Never Die.flac
+42:Atomic Music Audio/Terminus/06 Into Oblivion.flac
+43:Atomic Music Audio/Terminus/07 Retribution.flac
+44:Atomic Music Audio/Terminus/08 Unbroken.flac
+45:Atomic Music Audio/Terminus/09 Justice.flac
+46:Atomic Music Audio/Terminus/10 Dragon Rider.flac
+47:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 01 Stream.flac
+48:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 02 Deer.flac
+49:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 03 Immaterial.flac
+50:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 04 Skin.flac
+51:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 05 Rain.flac
+52:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 06 Tree.flac
+53:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 07 Tomorrow.flac
+54:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 08 Seasons.flac
+55:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 09 Between Roads.flac
+56:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 10 Ground Control.flac
+57:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 11 Harbor.flac
+58:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 12 Little Things.flac
+59:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 13 Catastrophic.flac
+60:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 14 Daydreaming.flac
+61:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 15 Carriage.flac
+62:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 16 Ride.flac
+63:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 17 Affront.flac
+64:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 18 In the Ground.flac
+65:Adrian Berenguer/Immaterial/ANBR - Adrian Berenguer - Immaterial - 19 Next Station.flac
+66:J2/Infinity I/01 Fury of Angels.flac
+67:J2/Infinity I/02 Return of the Warrior.flac
+68:J2/Infinity I/03 Remember the Souls.flac
+69:J2/Infinity I/04 Haunting Love.flac
+70:J2/Infinity I/05 Red Skies.flac
+71:J2/Infinity I/06 Two Worlds Collide.flac
+72:J2/Infinity I/07 Times of Hope.flac
+73:J2/Infinity I/08 Magicland.flac
+74:Thomas Bergersen/Humanity - Chapter IV/01 Space For Rent.flac
+75:Thomas Bergersen/Humanity - Chapter IV/02 Apollo.flac
+76:Thomas Bergersen/Humanity - Chapter IV/03 Rocket to the Moon.flac
+77:Thomas Bergersen/Humanity - Chapter IV/04 Cruising In Space (Feat. Merethe Soltvedt).flac
+78:Thomas Bergersen/Humanity - Chapter IV/05 Made of Air.flac
+79:Thomas Bergersen/Humanity - Chapter IV/06 One Million Voices.flac
+80:Thomas Bergersen/Humanity - Chapter IV/07 Made of Water.flac
+81:Thomas Bergersen/Humanity - Chapter IV/08 Made of Earth.flac
+82:Thomas Bergersen/Humanity - Chapter IV/09 Please Don't Go.flac
+83:Thomas Bergersen/Humanity - Chapter IV/10 Made of Fire.flac
+84:Thomas Bergersen/Humanity - Chapter IV/11 Dear Mr. Alien.flac
+85:Thomas Bergersen/Humanity - Chapter IV/12 Rocket to the Moon (Reprise).flac
+86:Thomas Bergersen/Humanity - Chapter IV/13 So Small.flac
+87:Phil Rey/Time To Unite/01 You Shall Not Kill.flac
+88:Phil Rey/Time To Unite/02 Twin Flames.flac
+89:Phil Rey/Time To Unite/03 Time To Unite.flac
+90:Phil Rey/Time To Unite/04 God Of Egypt.flac
+91:Phil Rey/Time To Unite/05 EARTH 2.0 (Space Architect).flac
+92:Phil Rey/Time To Unite/06 Seaside Rendez-Vous.flac
+93:Phil Rey/Time To Unite/07 EARTH 2.0 (Terraforming).flac
+94:Phil Rey/Time To Unite/08 The First People.flac
+95:Phil Rey/Time To Unite/09 Keep Going.flac
+96:Phil Rey/Time To Unite/10 When Words Can't Say It Right.flac
+97:Phil Rey/Time To Unite/11 Wanderer.flac
+98:Phil Rey/Time To Unite/12 Messiah.flac
+99:Tina Guo/Dies Irae/01 Moonlight Sonata.flac
+100:Tina Guo/Dies Irae/02 Moonheart.flac
+101:Tina Guo/Dies Irae/03 Vivaldi Double Cello Concerto Mvt 1.flac
+102:Tina Guo/Dies Irae/04 River Flows In You.flac
+103:Tina Guo/Dies Irae/05 The Swan.flac
+104:Tina Guo/Dies Irae/06 Summer.flac
+105:Tina Guo/Dies Irae/07 Adagio for Strings and Organ.flac
+106:Tina Guo/Dies Irae/08 Fantaisie - Impromptu (Op 66).flac
+107:Tina Guo/Dies Irae/09 Requiem- Lacrimosa.flac
+108:Tina Guo/Dies Irae/10 Toccata and Fugue.flac
+109:Tina Guo/Dies Irae/11 Night on Bald Mountain.flac
+110:Tina Guo/Dies Irae/12 Returning Home.flac
+111:Tina Guo/Dies Irae/13 Moonhearts in Space.flac
+112:Revolt Production Music/Fade To White 2/01 Fleeting Memories.flac
+113:Revolt Production Music/Fade To White 2/02 Mournful Strides.flac
+114:Revolt Production Music/Fade To White 2/03 Unrequited.flac
+115:Revolt Production Music/Fade To White 2/04 Winter Flow.flac
+116:Revolt Production Music/Fade To White 2/05 Contrition.flac
+117:Revolt Production Music/Fade To White 2/06 Acceptance.flac
+118:Revolt Production Music/Fade To White 2/07 Estranged.flac
+119:Revolt Production Music/Fade To White 2/08 Atonement.flac
+120:Revolt Production Music/Fade To White 2/09 Forlorn.flac
+121:Revolt Production Music/Fade To White 2/10 Glimmer.flac
+122:Revolt Production Music/Fade To White 2/11 Nostalgic Embrace.flac
+123:Revolt Production Music/Fade To White 2/12 Unveiled.flac
+124:Two Steps From Hell/Insurgent/01 Insurgent.mp3
+125:Two Steps From Hell/Insurgent/02 Future Fortress.mp3
+126:Two Steps From Hell/Insurgent/03 Skorpion Suite.mp3
+127:Two Steps From Hell/Insurgent/04 Losing Myself.mp3
+128:Two Steps From Hell/Insurgent/05 We Are Not Alone.mp3
+129:Two Steps From Hell/Insurgent/06 Black Magic Curse.mp3
+130:Two Steps From Hell/Insurgent/07 Raven Flock.mp3
+131:Two Steps From Hell/Insurgent/08 Devils Runes.mp3
+132:Two Steps From Hell/Insurgent/09 The Sultan.mp3
+133:Two Steps From Hell/Insurgent/10 Final Judgement.mp3
+134:Two Steps From Hell/Insurgent/11 Unholy Trinity.mp3
+135:Two Steps From Hell/Insurgent/12 Forsaken.mp3
+136:Two Steps From Hell/Insurgent/13 Mass Destruction.mp3
+137:Two Steps From Hell/Insurgent/14 I Thought Wed Lost It All.mp3
 playlist_end
