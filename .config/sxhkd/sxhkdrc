@@ -13,6 +13,8 @@ super + ctrl + {q, w, e, r, t}
 super + ctrl + {a, s, d, f, g}
      /home/inathero/Gits/lifx-configurator/lifx-configurator {-p 0, -p 1, -b 20, -b 50, -b 100} -ip 192.168.1.111
      
+super + ctrl + {Up, Down, Tab}
+     /home/inathero/Scripts/lifx-config-percentage.sh {+,-,.}
 # switch keymap
 super + q
     /hdd/colemak-1.0/swap-layout
@@ -63,6 +65,8 @@ super + r
 # Audio, bspwm
 super + {Up,Down}
     pactl set-sink-volume  alsa_output.usb-D___M_Holdings_Inc._HD-DAC1-00.iec958-stereo {+,-}10%
+    pactl set-sink-volume alsa_card.usb-D___M_Holdings_Inc._HD-DAC1-00  {+,-}10%
+
 #   pactl set-sink-volume  0 {+,-}10%
 
 super + shift + R
@@ -86,7 +90,7 @@ super + alt + {q,r}
 #super + {_,shift + }w
 #	bspc node -{c,k}
 
-ctrl + super + c
+ctrl + super + l 
     bspc node -c
 
 super + n
