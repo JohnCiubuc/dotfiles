@@ -42,8 +42,9 @@ pnmixer&
 feh --randomize --bg-scale ~/Pictures/wp/*
 #xrandr --output DisplayPort-1 --mode 2560x1440 --rate 144 --right-of DisplayPort-0
 #xrandr --output DisplayPort-0 --primary
-xrandr --output DP-1 --mode 2560x1440 --rate 144 --right-of DP-0
-xrandr --output DP-0 --primary
+
+
+
 protonmail-bridge  --no-window &
 thunderbird &
 #voice-commander &
@@ -51,6 +52,11 @@ xrandr --output DP-2 --mode 2560x1440 --rate 144
 steam -silent&
 #compton &
 #/home/inathero/Scripts/linuxsampler-piano &
-/home/inathero/Gits/leap-linux/build/leap-linux &
+#/home/inathero/Gits/leap-linux/build/leap-linux &
 wmctrl -r Thunderbird -t 9 &
+#protonvpn-cli r &
 $HOME/.config/polybar/launch.sh &
+xrandr --output DP-2 --mode 2560x1440 --rate 144 --right-of DP-1
+xrandr --output DP-1 --primary
+#xrandr --output DP-1 --mode 2560x1440 --rate 144 --scale 1x1
+#xrandr --output DP-2 --mode 1920x1080 --rate 60 --right-of DP-1

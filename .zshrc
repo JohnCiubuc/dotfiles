@@ -63,6 +63,7 @@ plugins=(
 	zsh-syntax-highlighting
 	zsh-autosuggestions
 	bgnotify
+    poetry
 )
 
 # User configuration
@@ -134,10 +135,14 @@ alias mechwild="subl /hdd/Gits/qmk_firmware/keyboards/mechwild/mercutio/keymaps/
 alias mechbuild="cd /hdd/Gits/qmk_firmware && sudo make mechwild/mercutio:inathero:usbasp"
 alias dwarf="cd /games/Dwarf\ Fortress/ && ./run-df"
 alias config="vim ~/.config/bspwm/bspwmrc"
+alias plover="sudo /opt/plover-4.0.0.dev10-x86_64.AppImage"
 alias sylvia="/hdd/Sync\ Drive/Programming\ Projects/build-SylviaVirtualAssistant_Discord-Desktop-Release/Sylvia_Discord"
 alias pulse-start=" systemctl --user start pulseaudio.service pulseaudio.socket"
 alias pulse-stop=" systemctl --user stop pulseaudio.service pulseaudio.socket"
 
+alias sstart="systemctl start"
+alias sstop="systemctl stop"
+alias srestart="systemctl restart"
 
 
 porphans(){
@@ -176,3 +181,5 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward
 alias hg='history | grep'
+
+export PATH="$HOME/.poetry/bin:$PATH"

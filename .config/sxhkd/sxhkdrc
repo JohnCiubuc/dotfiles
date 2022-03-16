@@ -35,9 +35,9 @@ super + F1
     st -e vim ~/.config/sxhkd/sxhkdrc
 
 super + t
-#    /home/inathero/Gits/streamlinkerino/build/streamlinkerino
+    /home/inathero/Gits/streamlinkerino/build/streamlinkerino
 #    /home/inathero/Gits/build-QSlimBrowser-Desktop-Release/QSlimBrowser https://twitchls.com/
-    streamlink-twitch-gui
+#    streamlink-twitch-gui
 # Screen Brightness
 super + {Prior, Next, Home}
     /games/Scripts/screen-brightness {+,-,0}

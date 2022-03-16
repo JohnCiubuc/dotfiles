@@ -1,16 +1,15 @@
-sw_volume: 64
+sw_volume: 82
 audio_device_state:0:Fake
 audio_device_state:1:Pulse
-audio_device_state:0:JACK
+audio_device_state:1:JACK
 audio_device_state:1:Visualizer feed
-audio_device_state:1:HW 1
-audio_device_state:1:HW 2
+audio_device_state:0:HW 1
+audio_device_state:0:HW 2
 audio_device_state:0:HW 3
 audio_device_state:0:Uncompressed Stream
 audio_device_state:0:Flac Stream
-state: play
-current: 75
-time: 125.989000
+state: stop
+current: 20
 random: 0
 repeat: 1
 single: 0
@@ -19,226 +18,26 @@ crossfade: 6
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Capo Productions/Escape/01 Courage.flac
-1:Capo Productions/Escape/02 Enchantment.flac
-2:Capo Productions/Escape/03 Moment Of Truth.flac
-3:Capo Productions/Escape/04 Understand.flac
-4:Capo Productions/Escape/05 Journey.flac
-5:Capo Productions/Escape/06 Moon Light.flac
-6:Capo Productions/Escape/07 Serenity.flac
-7:Capo Productions/Escape/08 Timeless.flac
-8:Capo Productions/Escape/09 Melody.flac
-9:Capo Productions/Escape/10 Fade Away.flac
-10:Capo Productions/Escape/11 At Times.flac
-11:Capo Productions/Escape/12 4u.flac
-12:Capo Productions/Escape/13 Cut Short.flac
-13:Capo Productions/Escape/14 Real.flac
-14:Capo Productions/Escape/15 Heart Beat.flac
-15:Capo Productions/Escape/16 Lost.flac
-16:Capo Productions/Escape/17 Storm.flac
-17:Capo Productions/Escape/18 Oceans.flac
-18:Capo Productions/Escape/19 With Me.flac
-19:Capo Productions/Escape/20 Freestyle.flac
-20:Capo Productions/Music Dreams/01 WalkAbout.flac
-21:Capo Productions/Music Dreams/02 Romanzo.flac
-22:Capo Productions/Music Dreams/03 Field Of Dreams.flac
-23:Capo Productions/Music Dreams/04 Quiet Storm.flac
-24:Capo Productions/Music Dreams/05 Virtue.flac
-25:Capo Productions/Music Dreams/06 Cast Away.flac
-26:Capo Productions/Music Dreams/07 Revolutions.flac
-27:Capo Productions/Music Dreams/08 Illusions.flac
-28:Capo Productions/Music Dreams/09 Ocean Blues.flac
-29:Capo Productions/Music Dreams/10 Delicate.flac
-30:Capo Productions/Music Dreams/11 Skies Of Light.flac
-31:Capo Productions/Music Dreams/12 Inspire.flac
-32:Capo Productions/Music Dreams/13 Sogni d'oro.flac
-33:Capo Productions/Music Dreams/14 Cosmic Life.flac
-34:Capo Productions/Music Dreams/15 Eternal Dream.flac
-35:Capo Productions/Music Dreams/16 Faith.flac
-36:Capo Productions/Music Dreams/17 Destiny.flac
-37:Capo Productions/Music Dreams/18 Plaisir.flac
-38:Capo Productions/Music Dreams/19 Isola Mia.flac
-39:Capo Productions/Music Dreams/20 Restless.flac
-40:Capo Productions/Triump/01 Redemption.flac
-41:Capo Productions/Triump/02 Never Stop.flac
-42:Capo Productions/Triump/03 Take Off.flac
-43:Capo Productions/Triump/04 DreamTime.flac
-44:Capo Productions/Triump/05 Memories.flac
-45:Capo Productions/Triump/06 Libertà.flac
-46:Capo Productions/Triump/07 Triumph.flac
-47:Capo Productions/Triump/08 My World.flac
-48:Capo Productions/Triump/09 Beneath The Sun.flac
-49:Capo Productions/Triump/10 Peace.flac
-50:Capo Productions/Triump/11 Discover.flac
-51:Capo Productions/Triump/12 Runaway.flac
-52:Capo Productions/Triump/13 Time.flac
-53:Capo Productions/Triump/14 Rise Up.flac
-54:Capo Productions/Triump/15 Amore.flac
-55:Capo Productions/Triump/16 The stars are dreaming.flac
-56:Black Sun Empire/Driving Insane/01. Black Sun Empire - Arrakis (Noisia Remix).flac
-57:Black Sun Empire/Driving Insane/01. Black Sun Empire - Arrakis.flac
-58:Black Sun Empire/Driving Insane/02. Black Sun Empire - Don't You.flac
-59:Black Sun Empire/Driving Insane/03. Black Sun Empire - Breach.flac
-60:Black Sun Empire/Driving Insane/04. Black Sun Empire - B'Negative (SKC & Chris.Su Remix).flac
-61:Black Sun Empire/Driving Insane/05. Black Sun Empire - Driving Insane.flac
-62:Black Sun Empire/Driving Insane/06. Black Sun Empire - The Rat (Kemal Remix).flac
-63:Black Sun Empire/Driving Insane/07. Black Sun Empire - Stasis.flac
-64:Black Sun Empire/Driving Insane/08. Black Sun Empire - Swipe.flac
-65:Black Sun Empire/Driving Insane/09. Black Sun Empire - Boris the Blade.flac
-66:Black Sun Empire/Driving Insane/10. Black Sun Empire - The Sun VIP.flac
-67:Black Sun Empire/Driving Insane/11. Black Sun Empire - B'Negative (Ill.Skillz Remix).flac
-68:Big Giant Circles/Contingency/01 Last Stand.flac
-69:Big Giant Circles/Contingency/02 Faith.flac
-70:Big Giant Circles/Contingency/03 Subconscious.flac
-71:Big Giant Circles/Contingency/04 Chasing Lightning.flac
-72:Big Giant Circles/Contingency/05 Unsettled.flac
-73:Big Giant Circles/Contingency/06 Stress.flac
-74:Big Giant Circles/Contingency/07 Cosmic Visions.flac
-75:Big Giant Circles/Contingency/08 Hacking the System.flac
-76:Big Giant Circles/Contingency/09 Conspiracy Theory.flac
-77:Big Giant Circles/Contingency/10 Lost Souls.flac
-78:Big Giant Circles/Contingency/11 March of Legions.flac
-79:Big Giant Circles/Contingency/12 Standoff.flac
-80:Big Giant Circles/Contingency/13 Hold the Line.flac
-81:Big Giant Circles/Contingency/14 Subterfuge.flac
-82:Big Giant Circles/Contingency/15 Tropical Rain.flac
-83:Big Giant Circles/Contingency/16 Far Beyond Eyes.flac
-84:Big Giant Circles/Legacy/01 Shepard of the Galaxy.flac
-85:Big Giant Circles/Legacy/02 Cosmic Visions .flac
-86:Big Giant Circles/Legacy/03 Faster Than Light .flac
-87:Big Giant Circles/Legacy/04 No One Believes Me.flac
-88:Big Giant Circles/Legacy/05 March of Legions .flac
-89:Big Giant Circles/Legacy/06 Hold the Line .flac
-90:Big Giant Circles/Legacy/07 Lost Souls.flac
-91:Big Giant Circles/Legacy/08 This Place Feels Unnatural.flac
-92:Big Giant Circles/Legacy/09 Nova Siberia OC ReMix -bonus-.flac
-93:Big Giant Circles/Legacy/10 8-bit Tali -bonus-.flac
-94:Black Coast/TRNDSTTR/Black Coast - TRNDSTTR (Lucian Remix) [feat. M. Maggie].mp3
-95:Celldweller/Blackstar Act One Purified/01-celldweller-retros.flac
-96:Celldweller/Blackstar Act One Purified/02-celldweller-purified.flac
-97:Celldweller/Blackstar Act One Purified/03-celldweller-a_dystopian_utopia.flac
-98:Celldweller/Blackstar Act One Purified/04-celldweller-the_possibilities_of_purpose.flac
-99:Celldweller/Blackstar Act One Purified/05-celldweller-on_the_surface_of_scardonia.flac
-100:Celldweller/Blackstar Act One Purified/06-celldweller-retros_(instrumental).flac
-101:Celldweller/Blackstar Act One Purified/07-celldweller-purified_(instrumental).flac
-102:Celldweller/Blackstar Act One Purified/08-celldweller-on_the_surface_of_scardonia_(instrumental).flac
-103:Cosmic Balance/01. State Azure - Lakside.flac
-104:Cosmic Balance/02. Murya - Carl's Last Interview.flac
-105:Cosmic Balance/03. Zero Cult & Suduaya - Rising Sun.flac
-106:Cosmic Balance/04. Liquid Space - Copy Dreams Lauter.flac
-107:Cosmic Balance/05. Chronos - Sequenced Remix Limiter.flac
-108:Cosmic Balance/06. Zinovia Arvanitidi - Floating.flac
-109:Cosmic Balance/07. Hoshin - Lahuta.flac
-110:Cosmic Balance/08. Erot & Suduaya - Dreamers.flac
-111:Cosmic Balance/09. MikTek - Dear Universe.flac
-112:Cosmic Balance/10. Xelomen - Breathe (Suduaya Remix).flac
-113:Cosmic Balance/11. Sufi's Life & Merlin - Lonely.flac
-114:Crimson/Fringe Element/01. Crimson.flac
-115:Crimson/Fringe Element/02. Aurora.flac
-116:Crimson/Fringe Element/03. Dark Forest.flac
-117:Crimson/Fringe Element/04. Sacred Fire.flac
-118:Crimson/Fringe Element/05. The Illusion of Sin.flac
-119:Crimson/Fringe Element/06. Revolutions.flac
-120:Crimson/Fringe Element/07. Road to Redemption.flac
-121:Crimson/Fringe Element/08. Petali Di Rosa.flac
-122:Crimson/Fringe Element/09. Salvation Lies Within.flac
-123:Crimson/Fringe Element/10. Sapphire Sky.flac
-124:Crimson/Fringe Element/11. Butterfly Effect.flac
-125:Divine Matrix/Free EP/Divine Matrix - Dreamstate - ep - 01.flac
-126:Divine Matrix/Free EP/Divine Matrix - Fear - ep - 02.flac
-127:Divine Matrix/Free EP/Divine Matrix - Into Sleep - ep - 03.flac
-128:Divine Matrix/Free EP/Divine Matrix - Towards the Light - ep - 04.flac
-129:Divine Matrix/Music For Space Travel/Divine Matrix - Music for Space Travel - 01 - Fies of Lo.flac
-130:Divine Matrix/Music For Space Travel/Divine Matrix - Music for Space Travel - 02 - Goodbye Planet Earth.flac
-131:Divine Matrix/Music For Space Travel/Divine Matrix - Music for Space Travel - 03 - Olympus Mons.flac
-132:Divine Matrix/Music For Space Travel/Divine Matrix - Music for Space Travel - 04 - Space Junk.flac
-133:Divine Matrix/Music For Space Travel/Divine Matrix - Music for Space Travel - 05 - Zero Gravity.flac
-134:Divine Matrix/Music For Space Travel/Divine Matrix - Music for Space Travel - 06 - Europa Ice Moon.flac
-135:Divine Matrix/Music For Space Travel/Divine Matrix - Music for Space Travel - 07 - Galilean Nights.flac
-136:Divine Matrix/Music For Space Travel/Divine Matrix - Music for Space Travel - 08 - Improbability Drive.flac
-137:Divine Matrix/Music For Space Travel/Divine Matrix - Music for Space Travel - 09 - Pulsar 21.flac
-138:Divine Matrix/Music For Space Travel/Divine Matrix - Music for Space Travel - 10 - View from a Satelite.flac
-139:Duomo/Arc'D/01. Autumn's End.flac
-140:Duomo/Arc'D/02. String Anthem.flac
-141:Duomo/Arc'D/03. Winter Elegy.flac
-142:Duomo/Arc'D/04. Bright Start.flac
-143:Duomo/Arc'D/05. Blue Dream.flac
-144:Duomo/Arc'D/06. Prelude.flac
-145:Duomo/Arc'D/07. Dance On a String.flac
-146:Duomo/Arc'D/08. Sudden Goodbye.flac
-147:Duomo/Arc'D/09. Far Away.flac
-148:Duomo/Arc'D/10. Pulses.flac
-149:Duomo/Arc'D/11. Spring Dance.flac
-150:Duomo/Arc'D/12. In Exile.flac
-151:Duomo/Arc'D/13. What You Hope For.flac
-152:Duomo/Arc'D/14. Through The Wind.flac
-153:Duomo/Arc'D/15. When I See You Again.flac
-154:Duomo/Arc'D/16. Nordland.flac
-155:Duomo/Arc'D/17. One Way or Another.flac
-156:Duomo/Arc'D/18. This Too Shall Pass.flac
-157:Duomo/Arc'D/19. Together For A Brief Moment.flac
-158:Duomo/Berlin Redux/01. Duomo - Be Together.flac
-159:Duomo/Berlin Redux/02. Duomo - Happy.flac
-160:Duomo/Berlin Redux/03. Duomo - Uprising.flac
-161:Duomo/Berlin Redux/04. Duomo - Heartshaped Box.flac
-162:Duomo/Berlin Redux/05. Duomo - Somewhere Only We Know.flac
-163:Duomo/Berlin Redux/06. Duomo - Creep.flac
-164:Duomo/Berlin Redux/07. Duomo - Riptide.flac
-165:Duomo/Berlin Redux/08. Duomo - Empire State of Mind.flac
-166:Duomo/Berlin Redux/09. Duomo - Wildest Dreams.flac
-167:Duomo/Berlin Redux/10. Duomo - Boulevard of Broken Dreams.flac
-168:Duomo/III/01. Duomo - On a Mission.flac
-169:Duomo/III/02. Duomo - Rush.flac
-170:Duomo/III/03. Duomo - Enigma.flac
-171:Duomo/III/04. Duomo - Wonderland.flac
-172:Duomo/III/05. Duomo - Escape Room.flac
-173:Duomo/III/06. Duomo - In No Time.flac
-174:Duomo/III/07. Duomo - Midnight Muse.flac
-175:Duomo/III/08. Duomo - Winterlight.flac
-176:Duomo/III/09. Duomo - Simplicity.flac
-177:Duomo/III/10. Duomo - The Dance.flac
-178:Duomo/III/11. Duomo - Race Through the Old Town.flac
-179:Duomo/III/12. Duomo - Allegiance.flac
-180:Dynatron/Aeternus/01 Hyperion Sunrise.flac
-181:Dynatron/Aeternus/02 Aeternus Theme.flac
-182:Dynatron/Aeternus/03 The Outer Rims of Traversed Space.flac
-183:Dynatron/Aeternus/04 Towards the Island Universe.flac
-184:Dynatron/Aeternus/05 Fluorescence of the Cepheids.flac
-185:Dynatron/Aeternus/06 Out There.flac
-186:Dynatron/Aeternus/07 Descend.flac
-187:Dynatron/Aeternus/08 Travelling the Wastelands.flac
-188:Dynatron/Aeternus/09 Not of this World.flac
-189:Dynatron/Aeternus/10 Escape.flac
-190:Dynatron/Aeternus/11 Hypersonic.flac
-191:Dynatron/Aeternus/12 A Beacon from Home.flac
-192:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 01 Space Operators.flac
-193:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 02 Fireburner.flac
-194:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 03 Propulsion Overdrive.flac
-195:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 04 Aurora Nights.flac
-196:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 05 Vox Magnetismi.flac
-197:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 06 The Pulsating Nebula.flac
-198:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 07 Andromeda Bleeding.flac
-199:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 08 Pulse Power.flac
-200:Dynatron/Escape Velocity/Dynatron - Escape Velocity - 09 Wormhole.flac
-201:Dynatron/The Legacy Collection Vol. 1/01 Throttle Up.flac
-202:Dynatron/The Legacy Collection Vol. 1/02 Rise to the Stars.flac
-203:Dynatron/The Legacy Collection Vol. 1/03 37 Million Horsepower.flac
-204:Dynatron/The Legacy Collection Vol. 1/04 Intergalactic Highway.flac
-205:Dynatron/The Legacy Collection Vol. 1/05 Intro.flac
-206:Dynatron/The Legacy Collection Vol. 1/06 On the Edge of Space.flac
-207:Dynatron/The Legacy Collection Vol. 1/07 Save the Moment.flac
-208:Dynatron/The Legacy Collection Vol. 1/08 Cruiser.flac
-209:Dynatron/The Legacy Collection Vol. 1/09 Zero Gravity.flac
-210:Dynatron/The Legacy Collection Vol. 1/10 Cosmo Black.flac
-211:Eliminate/Singles/Eliminate - Mind Control.mp3
-212:Easily Embarrassed/Tales Of The Coin Spinner/01 - Easily Embarrassed - The Truth.flac
-213:Easily Embarrassed/Tales Of The Coin Spinner/02 - Easily Embarrassed - Blessed Day On Distorted Shape.flac
-214:Easily Embarrassed/Tales Of The Coin Spinner/03 - Easily Embarrassed - Sylphesizer.flac
-215:Easily Embarrassed/Tales Of The Coin Spinner/04 - Easily Embarrassed - The Coin Spinner.flac
-216:Easily Embarrassed/Tales Of The Coin Spinner/05 - Easily Embarrassed - Moon People.flac
-217:Easily Embarrassed/Tales Of The Coin Spinner/06 - Easily Embarrassed - The Old Ways.flac
-218:Easily Embarrassed/Tales Of The Coin Spinner/07 - Easily Embarrassed - Little Match Sister.flac
-219:Easily Embarrassed/Tales Of The Coin Spinner/08 - Easily Embarrassed - Triplets.flac
-220:Easily Embarrassed/Tales Of The Coin Spinner/09 - Easily Embarrassed - Nothing But Spirit.flac
-221:Easily Embarrassed/Tales Of The Coin Spinner/10 - Easily Embarrassed - Under The Jester's Hat.flac
+0:crt_head/POWER UP/crt_head - POWER UP - 01 Typhoon.flac
+1:crt_head/POWER UP/crt_head - POWER UP - 02 Heatwave 2020.flac
+2:crt_head/POWER UP/crt_head - POWER UP - 03 Juggernaut.flac
+3:crt_head/POWER UP/crt_head - POWER UP - 04 Firestarter.flac
+4:crt_head/POWER UP/crt_head - POWER UP - 05 Misfits.flac
+5:crt_head/POWER UP/crt_head - POWER UP - 06 Overcharge.flac
+6:crt_head/POWER UP/crt_head - POWER UP - 07 You're Like a 1000 Watts.flac
+7:crt_head/POWER UP/crt_head - POWER UP - 08 Dream '98.flac
+8:crt_head/POWER UP/crt_head - POWER UP - 09 スサノオ.flac
+9:crt_head/POWER UP/crt_head - POWER UP - 10 Kanji Warrior.flac
+10:crt_head/POWER UP/crt_head - POWER UP - 11 Chemical Burn.flac
+11:crt_head/POWER UP/crt_head - POWER UP - 12 Exposure.flac
+12:crt_head/YOKAI BLEED/crt_head - YOKAI BLEED - 01 RED ALERT.flac
+13:crt_head/YOKAI BLEED/crt_head - YOKAI BLEED - 02 LOSING GRIP.flac
+14:crt_head/YOKAI BLEED/crt_head - YOKAI BLEED - 03 ONI.flac
+15:crt_head/YOKAI BLEED/crt_head - YOKAI BLEED - 04 DEJA VU.flac
+16:crt_head/YOKAI BLEED/crt_head - YOKAI BLEED - 05 YOKAI BLEED.flac
+17:crt_head/YOKAI BLEED/crt_head - YOKAI BLEED - 06 BOCTOK.flac
+18:crt_head/YOKAI BLEED/crt_head - YOKAI BLEED - 07 NUCLEAR SPITE.flac
+19:crt_head/YOKAI BLEED/crt_head - YOKAI BLEED - 08 MAN VS NO GOD.flac
+20:crt_head/YOKAI BLEED/crt_head - YOKAI BLEED - 09 RIDE THE TIDE (feat. SPIKE).flac
+21:crt_head/YOKAI BLEED/crt_head - YOKAI BLEED - 10 SIMULACRA (feat. EX-PRESIDENTS).flac
 playlist_end
