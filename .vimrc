@@ -73,6 +73,6 @@ let g:vimtex_compiler_latexmk = {
         \   '-interaction=nonstopmode',
         \ ],
         \}
-if has('gui_running')
-  set guifont=Source\ Code\ Pro\ for\ Powerline\ Semi-Bold\ 12
-endif
+"if has('gui_running')
+"  set guifont=Source\ Code\ Pro\ for\ Powerline\ Semi-Bold\ 12
+"endif
