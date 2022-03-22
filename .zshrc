@@ -156,6 +156,11 @@ git commit -am "$1"
 git push
 }
 
+gittag(){
+git add .
+git "$1"
+git push origin "$1"
+}
 ampv(){
 mpv "$1" --alang=jpn --sid=2 --sub-scale=0.5
 }

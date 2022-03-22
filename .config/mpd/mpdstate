@@ -9,8 +9,8 @@ audio_device_state:0:HW 3
 audio_device_state:0:Uncompressed Stream
 audio_device_state:0:Flac Stream
 state: pause
-current: 41
-time: 113.520000
+current: 3
+time: 36.612000
 random: 0
 repeat: 1
 single: 0
@@ -19,47 +19,11 @@ crossfade: 6
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Crypt of the Necrodancer/01 Tombtorial (Tutorial).flac
-1:Crypt of the Necrodancer/02 Rhythmortis (Lobby).flac
-2:Crypt of the Necrodancer/03 Watch Your Step (Training).flac
-3:Crypt of the Necrodancer/04 Disco Descent (1-1).flac
-4:Crypt of the Necrodancer/05 Crypteque (1-2).flac
-5:Crypt of the Necrodancer/06 Mausoleum Mash (1-3).flac
-6:Crypt of the Necrodancer/07 Konga Conga Kappa (King Conga).flac
-7:Crypt of the Necrodancer/08 Fungal Funk (2-1).flac
-8:Crypt of the Necrodancer/09 Grave Throbbing (2-2).flac
-9:Crypt of the Necrodancer/10 Portabellohead (2-3).flac
-10:Crypt of the Necrodancer/11 Metalmancy (Death Metal feat. FamilyJules7x).flac
-11:Crypt of the Necrodancer/12 Stone Cold (3-1 Cold).flac
-12:Crypt of the Necrodancer/13 Igneous Rock (3-1 Hot feat. FamilyJules7x).flac
-13:Crypt of the Necrodancer/14 Dance of the Decorous (3-2 Cold).flac
-14:Crypt of the Necrodancer/15 March of the Profane (3-2 Hot feat. FamilyJules7x).flac
-15:Crypt of the Necrodancer/16 A Cold Sweat (3-3 Cold).flac
-16:Crypt of the Necrodancer/17 A Hot Mess (3-3 Hot feat. FamilyJules7x).flac
-17:Crypt of the Necrodancer/18 Knight to C-Sharp (Deep Blues).flac
-18:Crypt of the Necrodancer/19 Styx and Stones (4-1).flac
-19:Crypt of the Necrodancer/20 Heart of the Crypt (4-2).flac
-20:Crypt of the Necrodancer/21 The Wight to Remain (4-3).flac
-21:Crypt of the Necrodancer/22 Deep Sea Bass (Coral Riff).flac
-22:Crypt of the Necrodancer/23 For Whom the Knell Tolls (Dead Ringer).flac
-23:Crypt of the Necrodancer/24 Momentum Mori (Necrodancer Fight 1st Phase).flac
-24:Crypt of the Necrodancer/25 Last Dance (Necrodancer Fight 2nd Phase).flac
-25:Crypt of the Necrodancer/26 Absolutetion (Golden Lute Fight feat. FamilyJules7x).flac
-26:Crypt of the Necrodancer/27 Rhythmortis (Lobby Filtered).flac
-27:Crypt of the Necrodancer/28 Disco Descent (1-1 with Shopkeeper).flac
-28:Crypt of the Necrodancer/29 Crypteque (1-2 with Shopkeeper).flac
-29:Crypt of the Necrodancer/30 Mausoleum Mash (1-3 with Shopkeeper).flac
-30:Crypt of the Necrodancer/31 Fungal Funk (2-1 with Shopkeeper).flac
-31:Crypt of the Necrodancer/32 Grave Throbbing (2-2 with Shopkeeper).flac
-32:Crypt of the Necrodancer/33 Portabellohead (2-3 with Shopkeeper).flac
-33:Crypt of the Necrodancer/34 Stone Cold (3-1 Cold with Shopkeeper).flac
-34:Crypt of the Necrodancer/35 Igneous Rock (3-1 Hot feat. Shopkeeper, FamilyJules7x).flac
-35:Crypt of the Necrodancer/36 Dance of the Decorous (3-2 Cold with Shopkeeper).flac
-36:Crypt of the Necrodancer/37 March of the Profane (3-2 Hot feat. Shopkeeper, FamilyJules7x).flac
-37:Crypt of the Necrodancer/38 A Cold Sweat (3-3 Cold with Shopkeeper).flac
-38:Crypt of the Necrodancer/39 A Hot Mess (3-3 Hot feat. Shopkeeper, FamilyJules7x).flac
-39:Crypt of the Necrodancer/40 Styx and Stones (4-1 with Shopkeeper).flac
-40:Crypt of the Necrodancer/41 Heart of the Crypt (4-2 with Shopkeeper).flac
-41:Crypt of the Necrodancer/42 The Wight to Remain (4-3 with Shopkeeper).flac
-42:Crypt of the Necrodancer/85 Dead End (Credits Theme).flac
+0:World Beyond/Winter Legend/01. Intro.flac
+1:World Beyond/Winter Legend/02. Winter Legend.flac
+2:World Beyond/Winter Legend/04. Future Obscure.flac
+3:World Beyond/Winter Legend/05. Showdown.flac
+4:World Beyond/Winter Legend/06. Interlude.flac
+5:World Beyond/Winter Legend/07. Brand New Day.flac
+6:World Beyond/Winter Legend/08. Everything We Stand for (feat. Nicholas Standing).flac
 playlist_end
