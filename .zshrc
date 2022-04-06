@@ -143,6 +143,9 @@ alias pulse-stop=" systemctl --user stop pulseaudio.service pulseaudio.socket"
 alias sstart="systemctl start"
 alias sstop="systemctl stop"
 alias srestart="systemctl restart"
+alias aur="trizen"
+alias cdd="cd /hdd/Downloads/"
+alias reload_usbs" sudo rmmod xhci_pci; sudo rmmod xhci_hcd; sudo modprobe xhci_pci xhci_hcd"
 
 
 porphans(){
@@ -158,11 +161,11 @@ git push
 
 gittag(){
 git add .
-git "$1"
+git tag "$1"
 git push origin "$1"
 }
 ampv(){
-mpv "$1" --alang=jpn --sid=2 --sub-scale=0.5
+mpv --profile=svp "$1" --alang=jpn --sid=1 --sub-scale=0.5
 }
 
 clear

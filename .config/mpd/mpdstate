@@ -9,8 +9,8 @@ audio_device_state:0:HW 3
 audio_device_state:0:Uncompressed Stream
 audio_device_state:0:Flac Stream
 state: pause
-current: 3
-time: 36.612000
+current: 25
+time: 234.413000
 random: 0
 repeat: 1
 single: 0
@@ -26,4 +26,26 @@ playlist_begin
 4:World Beyond/Winter Legend/06. Interlude.flac
 5:World Beyond/Winter Legend/07. Brand New Day.flac
 6:World Beyond/Winter Legend/08. Everything We Stand for (feat. Nicholas Standing).flac
+7:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_01_-_Lionheart.Mp3
+8:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_02_-_A Chantar Mer.Mp3
+9:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_03_-_Nana.Mp3
+10:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_04_-_The Sins Of Salmone.Mp3
+11:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_05_-_Scarborough Faire.Mp3
+12:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_06_-_Three Nightingales.Mp3
+13:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_07_-_The World Beyond The Woods.Mp3
+14:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_08_-_China Moon.Mp3
+15:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_09_-_Light At The Edge Of The World.Mp3
+16:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_10_-_Awake Inside A Dream.Mp3
+17:Angels of Venice/Sanctus/01 Angels of Venice - Carol of the Bells.flac
+18:Angels of Venice/Sanctus/02 Angels of Venice - God Rest Ye Merry Gentlemen.flac
+19:Angels of Venice/Sanctus/03 Angels of Venice - Little Drummer Boy.flac
+20:Angels of Venice/Sanctus/04 Angels of Venice - Polorum Regina.flac
+21:Angels of Venice/Sanctus/05 Angels of Venice - What Child Is This.flac
+22:Angels of Venice/Sanctus/06 Angels of Venice - We Three Kings.flac
+23:Angels of Venice/Sanctus/07 Angels of Venice - O Holy Night.flac
+24:Angels of Venice/Sanctus/08 Angels of Venice - Silent Night.flac
+25:Angels of Venice/Sanctus/09 Angels of Venice - Edelweiss.flac
+26:Angels of Venice/Sanctus/10 Angels of Venice - Good King Wenceslas.flac
+27:Angels of Venice/Sanctus/11 Angels of Venice - Dance of the Sugar Plum Fairy.flac
+28:Angels of Venice/Sanctus/12 Angels of Venice - Carol of the Bells (vocal).flac
 playlist_end

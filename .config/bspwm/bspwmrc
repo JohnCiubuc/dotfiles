@@ -37,7 +37,7 @@ bspc rule -a Thunderbird desktop=^9
 
 bspc rule -a Zathura state=tiled
 
-copyq &
+#copyq &
 pnmixer&
 feh --randomize --bg-scale ~/Pictures/wp/*
 #xrandr --output DisplayPort-1 --mode 2560x1440 --rate 144 --right-of DisplayPort-0
@@ -45,15 +45,15 @@ feh --randomize --bg-scale ~/Pictures/wp/*
 
 
 
-protonmail-bridge  --no-window &
-thunderbird &
+#protonmail-bridge  --no-window &
+#thunderbird &
 #voice-commander &
 xrandr --output DP-2 --mode 2560x1440 --rate 144
-steam -silent&
+#steam -silent&
 #compton &
 #/home/inathero/Scripts/linuxsampler-piano &
 #/home/inathero/Gits/leap-linux/build/leap-linux &
-wmctrl -r Thunderbird -t 9 &
+#wmctrl -r Thunderbird -t 9 &
 #protonvpn-cli r &
 $HOME/.config/polybar/launch.sh &
 xrandr --output DP-2 --mode 2560x1440 --rate 144 --right-of DP-1
