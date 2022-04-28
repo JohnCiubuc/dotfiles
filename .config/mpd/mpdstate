@@ -8,9 +8,9 @@ audio_device_state:0:HW 2
 audio_device_state:0:HW 3
 audio_device_state:0:Uncompressed Stream
 audio_device_state:0:Flac Stream
-state: pause
-current: 25
-time: 234.413000
+state: play
+current: 15
+time: 126.080000
 random: 0
 repeat: 1
 single: 0
@@ -19,33 +19,146 @@ crossfade: 6
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:World Beyond/Winter Legend/01. Intro.flac
-1:World Beyond/Winter Legend/02. Winter Legend.flac
-2:World Beyond/Winter Legend/04. Future Obscure.flac
-3:World Beyond/Winter Legend/05. Showdown.flac
-4:World Beyond/Winter Legend/06. Interlude.flac
-5:World Beyond/Winter Legend/07. Brand New Day.flac
-6:World Beyond/Winter Legend/08. Everything We Stand for (feat. Nicholas Standing).flac
-7:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_01_-_Lionheart.Mp3
-8:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_02_-_A Chantar Mer.Mp3
-9:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_03_-_Nana.Mp3
-10:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_04_-_The Sins Of Salmone.Mp3
-11:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_05_-_Scarborough Faire.Mp3
-12:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_06_-_Three Nightingales.Mp3
-13:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_07_-_The World Beyond The Woods.Mp3
-14:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_08_-_China Moon.Mp3
-15:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_09_-_Light At The Edge Of The World.Mp3
-16:Angels of Venice/Awake Inside A Dream/Angels Of Venice_-_Awake Inside A Dream_-_10_-_Awake Inside A Dream.Mp3
-17:Angels of Venice/Sanctus/01 Angels of Venice - Carol of the Bells.flac
-18:Angels of Venice/Sanctus/02 Angels of Venice - God Rest Ye Merry Gentlemen.flac
-19:Angels of Venice/Sanctus/03 Angels of Venice - Little Drummer Boy.flac
-20:Angels of Venice/Sanctus/04 Angels of Venice - Polorum Regina.flac
-21:Angels of Venice/Sanctus/05 Angels of Venice - What Child Is This.flac
-22:Angels of Venice/Sanctus/06 Angels of Venice - We Three Kings.flac
-23:Angels of Venice/Sanctus/07 Angels of Venice - O Holy Night.flac
-24:Angels of Venice/Sanctus/08 Angels of Venice - Silent Night.flac
-25:Angels of Venice/Sanctus/09 Angels of Venice - Edelweiss.flac
-26:Angels of Venice/Sanctus/10 Angels of Venice - Good King Wenceslas.flac
-27:Angels of Venice/Sanctus/11 Angels of Venice - Dance of the Sugar Plum Fairy.flac
-28:Angels of Venice/Sanctus/12 Angels of Venice - Carol of the Bells (vocal).flac
+0:GHOST DATA/2016 - Blatant Plagiarism/GHOST DATA, Anri - Blatant Plagiarism.mp3
+1:GHOST DATA/2016 - Mahou Shoujo/01 Mahou Shoujo.mp3
+2:GHOST DATA/2016 - The Shepherdess 羊飼い/01 Reincarnate.mp3
+3:GHOST DATA/2016 - The Shepherdess 羊飼い/02 Nuclear Winter.mp3
+4:GHOST DATA/2016 - The Shepherdess 羊飼い/03 Starry Eyed (feat. Megurine Luka V4X).mp3
+5:GHOST DATA/2016 - The Shepherdess 羊飼い/04 Whispering Woods (feat. AVANNA).mp3
+6:GHOST DATA/2016 - The Shepherdess 羊飼い/05 The Shepherdess (feat. AVANNA).mp3
+7:GHOST DATA/2016 - The Shepherdess 羊飼い/06 Poltergeists (feat. DAINA).mp3
+8:GHOST DATA/2016 - The Shepherdess 羊飼い/07 Will o' Wisps (feat. DAINA).mp3
+9:GHOST DATA/2016 - The Shepherdess 羊飼い/08 Wolf & Lamb (feat. Megurine Luka V4X).mp3
+10:GHOST DATA/2016 - The Shepherdess 羊飼い/09 Prophetic (feat. SugarJoiko).mp3
+11:GHOST DATA/2016 - The Shepherdess 羊飼い/10 Sushi Roll (feat. ANKŌ).mp3
+12:GHOST DATA/2016 - The Shepherdess 羊飼い/11 Ram Parts.mp3
+13:GHOST DATA/2016 - The Shepherdess 羊飼い/12 Moon Phase (feat. SugarJoiko).mp3
+14:GHOST DATA/2016 - The Shepherdess 羊飼い/13 Consciousness.mp3
+15:GHOST DATA/2017 - Agony's Embrace 苦悩の抱擁/01 The Holographic Nightmare.mp3
+16:GHOST DATA/2017 - Agony's Embrace 苦悩の抱擁/02 Black Widow.mp3
+17:GHOST DATA/2017 - Agony's Embrace 苦悩の抱擁/03 Agony's Embrace.mp3
+18:GHOST DATA/2017 - Agony's Embrace 苦悩の抱擁/04 Death To Lolicons!.mp3
+19:GHOST DATA/2017 - Agony's Embrace 苦悩の抱擁/05 Anthems For A Yandere.mp3
+20:GHOST DATA/2017 - Agony's Embrace 苦悩の抱擁/06 Submergence.mp3
+21:GHOST DATA/2017 - Agony's Embrace 苦悩の抱擁/07 The Curator of Sands.mp3
+22:GHOST DATA/2017 - Magical Metamorphosis 魔法の変態/01 Iridescent (feat. AVANNA & Megurine Luka).mp3
+23:GHOST DATA/2017 - Magical Metamorphosis 魔法の変態/02 Magical Metamorphosis.mp3
+24:GHOST DATA/2017 - Magical Metamorphosis 魔法の変態/03 Chromatophore.mp3
+25:GHOST DATA/2017 - Magical Metamorphosis 魔法の変態/04 Void Mother.mp3
+26:GHOST DATA/2017 - Magical Metamorphosis 魔法の変態/05 Arcadia Lovers.mp3
+27:GHOST DATA/2017 - Magical Metamorphosis 魔法の変態/06 Fly Away (feat. Sarah Bonito).mp3
+28:GHOST DATA/2017 - Magical Metamorphosis 魔法の変態/07 Solid State Society.mp3
+29:GHOST DATA/2017 - Magical Metamorphosis 魔法の変態/08 Waste Away With Me.mp3
+30:GHOST DATA/2017 - Magical Metamorphosis 魔法の変態/09 She Heals Everything.mp3
+31:GHOST DATA/2017 - Magical Metamorphosis 魔法の変態/10 Lover's Aria.mp3
+32:GHOST DATA/2017 - Magical Metamorphosis 魔法の変態/11 Aether Arts.mp3
+33:GHOST DATA/2017 - Magical Metamorphosis 魔法の変態/12 Enshrined.mp3
+34:GHOST DATA/2017 - Magical Metamorphosis 魔法の変態/13 Disintegration.mp3
+35:GHOST DATA/2017 - Magical Metamorphosis 魔法の変態/14 The Great Chasm.mp3
+36:GHOST DATA/2017 - Oishii Symphony - Final Movement/01 Whipped Cream.mp3
+37:GHOST DATA/2017 - Oishii Symphony - Final Movement/02 Bubble Gum.mp3
+38:GHOST DATA/2017 - Oishii Symphony - Final Movement/03 Moon Pie (feat. AVANNA & Megurine Luka).mp3
+39:GHOST DATA/2017 - Oishii Symphony - Final Movement/04 Maple Syrup (feat. AVANNA).mp3
+40:GHOST DATA/2017 - Oishii Symphony - Final Movement/05 Cranberry Cake (feat. AVANNA & Megurine Luka).mp3
+41:GHOST DATA/2017 - Oishii Symphony - Final Movement/06 Yosakoi Hime (feat. Megurine Luka).mp3
+42:GHOST DATA/2017 - Oishii Symphony - Final Movement/07 Gigabit Waterfall (feat. AVANNA).mp3
+43:GHOST DATA/2017 - Oishii Symphony - Final Movement/08 Rooftop Confessions (feat. AVANNA & Megurine Luka).mp3
+44:GHOST DATA/2017 - Oishii Symphony - Final Movement/09 Rainbow Sherbert (feat. Megurine Luka).mp3
+45:GHOST DATA/2017 - Oishii Symphony - Final Movement/10 Crystal Moon River.mp3
+46:GHOST DATA/2017 - Oishii Symphony - Final Movement/11 Sayonara, Sach-Sama.mp3
+47:GHOST DATA/2017 - Oishii Symphony - Final Movement/12 Tokyo Chic.mp3
+48:GHOST DATA/2017 - Oishii Symphony - Final Movement/13 Genki Girl (feat. Megurine Luka & Hatsune Miku).mp3
+49:GHOST DATA/2017 - Oishii Symphony - Final Movement/14 Doll Princess (feat. AVANNA).mp3
+50:GHOST DATA/2017 - Oishii Symphony - Final Movement/15 Shrine Maiden.mp3
+51:GHOST DATA/2017 - Oishii Symphony - Final Movement/16 Oishii Astral Observatory (feat. AVANNA).mp3
+52:GHOST DATA/2017 - Oishii Symphony - Final Movement/17 Strawberry Lollipop.mp3
+53:GHOST DATA/2017 - Oishii Symphony - Final Movement/18 Kiwi Gummy.mp3
+54:GHOST DATA/2017 - Oishii Symphony - Final Movement/19 Cotton Candy.mp3
+55:GHOST DATA/2017 - Oishii Symphony - Final Movement/20 Liquorice Snaps.mp3
+56:GHOST DATA/2017 - Oishii Symphony - Final Movement/21 Cheri Soda.mp3
+57:GHOST DATA/2017 - Simulated Sensations 模倣感/01 Simulated Sensations.mp3
+58:GHOST DATA/2017 - Simulated Sensations 模倣感/02 Ephemeral.mp3
+59:GHOST DATA/2017 - Simulated Sensations 模倣感/03 Stand Alone Complex (feat. AVANNA & DAINA).mp3
+60:GHOST DATA/2017 - Simulated Sensations 模倣感/04 Licentious.mp3
+61:GHOST DATA/2017 - Simulated Sensations 模倣感/05 Entropy.mp3
+62:GHOST DATA/2017 - Simulated Sensations 模倣感/06 Parallel Convergence (feat. =ODDEEO=).mp3
+63:GHOST DATA/2017 - Simulated Sensations 模倣感/07 Heart Realize (feat. MARGARET SPOON).mp3
+64:GHOST DATA/2017 - Simulated Sensations 模倣感/08 Halcyon.mp3
+65:GHOST DATA/2017 - Simulated Sensations 模倣感/09 Pale Shadows.mp3
+66:GHOST DATA/2017 - Simulated Sensations 模倣感/10 Astral Projection.mp3
+67:GHOST DATA/2017 - Simulated Sensations 模倣感/11 Death Stranding.mp3
+68:GHOST DATA/2017 - Simulated Sensations 模倣感/12 The Womb of R'lyeh.mp3
+69:GHOST DATA/2017 - Simulated Sensations 模倣感/13 Stars Beneath The Ocean.mp3
+70:GHOST DATA/2018 - Crystal Cathedral クリスタル大聖堂/01 Magical Girls (Orchestral Version).mp3
+71:GHOST DATA/2018 - Crystal Cathedral クリスタル大聖堂/02 Crystal Cathedral (feat. Jam2go).mp3
+72:GHOST DATA/2018 - Crystal Cathedral クリスタル大聖堂/03 Heart of Darkness (feat. AVANNA & Megurine Luka V4X).mp3
+73:GHOST DATA/2018 - Crystal Cathedral クリスタル大聖堂/04 Iridescent (feat. AVANNA & Megurine Luka V4X).mp3
+74:GHOST DATA/2018 - Crystal Cathedral クリスタル大聖堂/05 Girl! Girl! Girl! (feat. Cor!s).mp3
+75:GHOST DATA/2018 - Crystal Cathedral クリスタル大聖堂/06 700 Sisters (feat. Mecha Maiko).mp3
+76:GHOST DATA/2018 - Crystal Cathedral クリスタル大聖堂/07 So Slow (GHOST DATA Remix).mp3
+77:GHOST DATA/2018 - Crystal Cathedral クリスタル大聖堂/08 Bullet Witch.mp3
+78:GHOST DATA/2018 - Crystal Cathedral クリスタル大聖堂/09 Stained Glass.mp3
+79:GHOST DATA/2018 - Crystal Cathedral クリスタル大聖堂/10 Dark Harvest.mp3
+80:GHOST DATA/2018 - Crystal Cathedral クリスタル大聖堂/11 Textlog Ritual.mp3
+81:GHOST DATA/2018 - Crystal Cathedral クリスタル大聖堂/12 Agony's Embrace.mp3
+82:GHOST DATA/2018 - Crystal Cathedral クリスタル大聖堂/13 Echo Chamber.mp3
+83:GHOST DATA/2018 - Crystal Cathedral クリスタル大聖堂/14 Summoning Circle (feat. Jam2go).mp3
+84:GHOST DATA/2018 - Everlust [Single]/01 Everlust.mp3
+85:GHOST DATA/2018 - Heart of Darkness (feat. AVANNA & Megurine Luka) [Single]/01 Heart of Darkness (feat. AVANNA & Megurine Luka).mp3
+86:GHOST DATA/2018 - Heart of Darkness (feat. AVANNA & Megurine Luka) [Single]/02 Heart of Darkness (Instrumental Edit).mp3
+87:GHOST DATA/2018 - Siren's Call [Single]/01 Siren's Call.mp3
+88:GHOST DATA/2018 - Slime Tree/01 Slime Tree.mp3
+89:GHOST DATA/2018 - Waste Away With Me (Orchestral Version)/01 Waste Away With Me (Orchestral Version).mp3
+90:GHOST DATA/2019 - ANGELIC LAYER/01 ANGELIC LAYER.mp3
+91:GHOST DATA/2019 - Arc Star/01 Arc Star.mp3
+92:GHOST DATA/2019 - T O M I E [Single]/01 - TOMIE.mp3
+93:GHOST DATA/2019 - Void Walker/01 Void Walker.mp3
+94:GHOST DATA/2019 - Void Walker/02 Inhuman.mp3
+95:GHOST DATA/2019 - Void Walker/03 Siren's Call.mp3
+96:GHOST DATA/2019 - Void Walker/04 Darkened Duchess.mp3
+97:GHOST DATA/2019 - Void Walker/05 Become God.mp3
+98:GHOST DATA/2019 - Void Walker/06 Femme Fatale.mp3
+99:GHOST DATA/2019 - Void Walker/07 Full Bodied (feat. AL!CE).mp3
+100:GHOST DATA/2019 - Void Walker/08 Agony's Embrace.mp3
+101:GHOST DATA/2019 - Void Walker/09 The Black Widow.mp3
+102:GHOST DATA/2019 - Void Walker/10 Textlog Ritual.mp3
+103:GHOST DATA/2019 - Void Walker/11 Gods of the Artificial.mp3
+104:GHOST DATA/2019 - Void Walker/12 Dark Harvest.mp3
+105:GHOST DATA/2019 - Void Walker/13 Visions.mp3
+106:GHOST DATA/2020 - Aeon Drive [Single]/01 - Aeon Drive.mp3
+107:GHOST DATA/2020 - Archangel's Reprise [Single]/01 - Archangel's Reprise.mp3
+108:GHOST DATA/2020 - Project Melody/01 Project Melody feat. AL!CE.mp3
+109:GHOST DATA/2020 - Project Melody/02 Project Melody (Instrumental).mp3
+110:GHOST DATA/2020 - Queen's Game [Single]/01 Queen's Game.mp3
+111:GHOST DATA/2020 - The Heart of a Mouse [Single]/01 - The Heart of a Mouse.mp3
+112:GHOST DATA/Cruel Choreography/01. GHOST DATA - Archangel's Reprise.flac
+113:GHOST DATA/Cruel Choreography/02. GHOST DATA - Arm's Race (Prelude).flac
+114:GHOST DATA/Cruel Choreography/03. GHOST DATA - Queen's Game.flac
+115:GHOST DATA/Cruel Choreography/04. GHOST DATA - Angelic Layer.flac
+116:GHOST DATA/Cruel Choreography/05. GHOST DATA - Inversions of Hope.flac
+117:GHOST DATA/Cruel Choreography/06. GHOST DATA - Deadly Flourish.flac
+118:GHOST DATA/Cruel Choreography/07. GHOST DATA - Cruel Choreography.flac
+119:GHOST DATA/Cruel Choreography/08. GHOST DATA - Grand Restoration (Instrumental).flac
+120:GHOST DATA/Cruel Choreography/09. GHOST DATA - Aeon Drive.flac
+121:GHOST DATA/Cruel Choreography/10. GHOST DATA - Arpeggio of Steel.flac
+122:GHOST DATA/Cruel Choreography/11. GHOST DATA - Infinite Resignation (feat. ATWOOD & glasscat).flac
+123:GHOST DATA/Cruel Choreography/12. GHOST DATA - Resonance Utopia.flac
+124:GHOST DATA/Cruel Choreography/13. GHOST DATA - Blind Divinity.flac
+125:GHOST DATA/Cruel Choreography/14. GHOST DATA - Voice of Eternity.flac
+126:GHOST DATA/Cruel Choreography/15. GHOST DATA - TOMIE.flac
+127:GHOST DATA/Cruel Choreography/16. GHOST DATA - Lucid Flux (feat. Jam2go).flac
+128:GHOST DATA/Cruel Choreography/17. GHOST DATA - Her Mortal Coil.flac
+129:GHOST DATA/The Oculus Occult/GHOST DATA - THE OCCULUS OCCULT 陰陽師 - 01 BLOOD MOON.flac
+130:GHOST DATA/The Oculus Occult/GHOST DATA - THE OCCULUS OCCULT 陰陽師 - 02 CELESTIAL BODIES (feat. Jovani Occomy).flac
+131:GHOST DATA/The Oculus Occult/GHOST DATA - THE OCCULUS OCCULT 陰陽師 - 03 THE OCCULUS OCCULT.flac
+132:GHOST DATA/The Oculus Occult/GHOST DATA - THE OCCULUS OCCULT 陰陽師 - 04 CARNAL DESIRE.flac
+133:GHOST DATA/The Oculus Occult/GHOST DATA - THE OCCULUS OCCULT 陰陽師 - 05 SULTRY SESSIONS.flac
+134:GHOST DATA/The Oculus Occult/GHOST DATA - THE OCCULUS OCCULT 陰陽師 - 06 PEARL DANCER.flac
+135:GHOST DATA/The Oculus Occult/GHOST DATA - THE OCCULUS OCCULT 陰陽師 - 07 DREAM DIVINATION.flac
+136:GHOST DATA/The Oculus Occult/GHOST DATA - THE OCCULUS OCCULT 陰陽師 - 08 TEMPORAL PARADOX (feat. AVANNA).flac
+137:GHOST DATA/The Oculus Occult/GHOST DATA - THE OCCULUS OCCULT 陰陽師 - 09 CRYSTALLINE.flac
+138:GHOST DATA/The Oculus Occult/GHOST DATA - THE OCCULUS OCCULT 陰陽師 - 10 CLEAR COFFINS (feat. Juunana).flac
+139:GHOST DATA/The Oculus Occult/GHOST DATA - THE OCCULUS OCCULT 陰陽師 - 11 CYAN READER.flac
+140:GHOST DATA/The Oculus Occult/GHOST DATA - THE OCCULUS OCCULT 陰陽師 - 12 PORCELAIN LOVERS.flac
+141:GHOST DATA/The Oculus Occult/GHOST DATA - THE OCCULUS OCCULT 陰陽師 - 13 CEMETERY DRIVE.flac
 playlist_end

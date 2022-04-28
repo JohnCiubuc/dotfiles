@@ -1,4 +1,6 @@
 # Path to your oh-my-zsh installation.
+# /reload
+#
 ZSH=/usr/share/oh-my-zsh/
 ZSH_CUSTOM=/home/inathero/.oh-my-zsh/
 export VISUAL="vim"
@@ -127,12 +129,14 @@ alias pacfind="pacman -Ql"
 alias facebook="caprine"
 alias pinstall="sudo pacman -Syu"
 alias psearch="pacman -Qe | grep "
-alias ortho="subl /hdd/Gits/qmk_firmware/keyboards/cannonkeys/ortho60/keymaps/inathero/keymap.c /hdd/Gits/qmk_firmware/keyboards/cannonkeys/ortho60/keymaps/inathero/zach_common_functions.c"
-alias orthobuild="cd /hdd/Gits/qmk_firmware && sudo make cannonkeys/ortho60:inathero:dfu-util"
-alias dz="subl /hdd/Gits/qmk_firmware/keyboards/dz60/keymaps/inathero/keymap.c /hdd/Gits/qmk_firmware/keyboards/dz60/keymaps/inathero/inathero_common_functions.c"
-alias dzbuild="cd /hdd/Gits/qmk_firmware && sudo make dz60:inathero:dfu"
-alias mechwild="subl /hdd/Gits/qmk_firmware/keyboards/mechwild/mercutio/keymaps/inathero/keymap.c /hdd/Gits/qmk_firmware/keyboards/mechwild/mercutio/keymaps/inathero/inathero_common_functions.c"
-alias mechbuild="cd /hdd/Gits/qmk_firmware && sudo make mechwild/mercutio:inathero:usbasp"
+alias ortho="subl /games/qmk_firmware/keyboards/cannonkeys/ortho60/keymaps/inathero/keymap.c /games/qmk_firmware/keyboards/cannonkeys/ortho60/keymaps/inathero/zach_common_functions.c"
+alias orthobuild="cd /games/qmk_firmware && make cannonkeys/ortho60:inathero:dfu-util"
+alias dz="subl /games/qmk_firmware/keyboards/dz60/keymaps/inathero/keymap.c /games/qmk_firmware/keyboards/dz60/keymaps/inathero/inathero_common_functions.c"
+alias dzbuild="cd /games/qmk_firmware && make dz60:inathero:dfu"
+alias mechwild="subl /games/qmk_firmware/keyboards/mechwild/mercutio/keymaps/inathero/keymap.c /games/qmk_firmware/keyboards/mechwild/mercutio/keymaps/inathero/inathero_common_functions.c"
+alias mechbuild="cd /games/qmk_firmware && make mechwild/mercutio:inathero:usbasp"
+alias mini="subl /games/qmk_firmware/keyboards/boardsource/4x12/keymaps/inathero/inathero_common_functions.c /games/qmk_firmware/keyboards/boardsource/4x12/keymaps/inathero/keymap.c"
+alias minibuild="cd /games/qmk_firmware && make  boardsource/4x12:inathero:dfu"
 alias dwarf="cd /games/Dwarf\ Fortress/ && ./run-df"
 alias config="vim ~/.config/bspwm/bspwmrc"
 alias plover="sudo /opt/plover-4.0.0.dev10-x86_64.AppImage"
@@ -145,7 +149,7 @@ alias sstop="systemctl stop"
 alias srestart="systemctl restart"
 alias aur="trizen"
 alias cdd="cd /hdd/Downloads/"
-alias reload_usbs" sudo rmmod xhci_pci; sudo rmmod xhci_hcd; sudo modprobe xhci_pci xhci_hcd"
+alias reload_usbs=" sudo rmmod xhci_pci; sudo rmmod xhci_hcd; sudo modprobe xhci_pci xhci_hcd && sudo mount /media &"
 
 
 porphans(){

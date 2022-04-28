@@ -1,0 +1,69 @@
+// Zach Nielsen     Custom Planck Keyboard layout
+#include QMK_KEYBOARD_H
+#include "zach_common_functions.c"
+
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+[_COLEMAK] = LAYOUT_ortho_5x12( /* Base Layer */
+  KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,   KC_6,   KC_7,    KC_8,    KC_9,    KC_0,    KC_BSPC, 
+  KC_ESC,  KC_Q,    KC_W,    KC_F,    KC_P,    KC_G,   KC_J,   KC_L,    KC_U,    KC_Y,    KC_QUOT, KC_BSPC,
+  KC_BSPC, KC_A,    KC_R,    KC_S,    KC_T,    KC_D,   KC_H,   KC_N,    KC_E,    KC_I,    KC_O,    KC_ENT,
+  SHFT_CAP,KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,   KC_K,   KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
+  KC_LCTRL,   TD(SUP), KC_LALT, TD(SUP), TD(LOW), KC_SPC, KC_SPC, TD(RAI), KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
+),
+
+
+[_FPS] = LAYOUT_ortho_5x12( /* Base Layer */
+  KC_ESC,  KC_1,    KC_2,       KC_3,    KC_4,    KC_5,   KC_6,   KC_7,    KC_8,    KC_9,    KC_0,    KC_F5, 
+  KC_ESC,  KC_Q,    KC_W,       KC_F,    KC_1,    KC_2,   KC_3,   KC_L,    KC_U,    KC_Y,    KC_QUOT, KC_ENT,
+  KC_BSPC, KC_A,    KC_R,       KC_Q,    KC_W,    KC_R,   KC_E,   KC_N,    KC_E,    KC_I,    KC_O,    KC_ENT,
+  SHFT_CAP,KC_Z,    KC_M,     KC_A,    KC_S,    KC_D,   KC_F,   KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
+  KC_LCTRL,   TD(SUP), KC_LSHIFT,  TD(SUP), KC_3,    KC_C,   KC_SPC, KC_7,    KC_8, KC_DOWN, KC_UP,   COLEMAK
+),
+
+[_DEUS] = LAYOUT_ortho_5x12( /* Base Layer */
+  KC_ESC,  KC_1,    KC_2,  KC_3,    KC_4,    KC_5,   KC_6,   KC_7,    KC_8,    KC_9,    KC_PSLS,  KC_KP_PLUS, 
+  KC_ESC,  KC_Q,    KC_W,  KC_F,    KC_1,    KC_2,   KC_3,   KC_L,    KC_U,    KC_Y,    KC_QUOT, KC_ENT,
+  KC_BSPC, KC_A,    KC_R,  KC_Q,    KC_W,    KC_R,   KC_E,   KC_N,    KC_E,    KC_I,    KC_O,    KC_ENT,
+  SHFT_CAP,KC_Z,    KC_M,  KC_A,    KC_S,    KC_D,   KC_L,   KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
+  KC_LCTRL, TD(SUP),KC_X,  TD(SUP), KC_F2,    KC_LBRC,KC_SPC, KC_7,    KC_8, KC_DOWN, KC_UP,   COLEMAK
+),
+[_DF] = LAYOUT_ortho_5x12( /* Base Layer */
+  KC_ESC,     KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,   KC_6,   KC_7,    KC_8,    KC_9,    KC_MINS,    S(KC_COMM), 
+  KC_ESC,     KC_Q,    KC_W,    KC_F,    KC_P,    KC_G,   KC_J,   KC_L,    KC_U,    KC_Y,    KC_PLUS, S(KC_DOT),
+  KC_BSPC,    KC_A,    KC_R,    KC_S,    KC_T,    KC_D,   KC_H,   KC_N,    KC_E,    KC_I,    KC_O,    KC_ENT,
+  SHFT_CAP,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,   KC_K,   KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
+  KC_LCTRL,   TD(SUP), KC_LALT, TD(SUP), TD(LOW), KC_SPC, KC_SPC, TD(RAI), KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
+),
+
+[_ANKIT] = LAYOUT_ortho_5x12( /* Anki Test and Dev Layer */
+  C(KC_B),  C(S(KC_C)), C(S(A(KC_C))),  C(KC_ENT),  KC_4,    KC_5,   KC_6,   KC_7,    KC_8,    KC_9,     C(KC_1), KC_4, 
+  C(KC_I),  INL_MATH,  	XXXXXXX,    	XXXXXXX,    KC_P,    KC_G,   KC_J,   KC_L,    KC_U,    KC_Y,     C(KC_2), KC_3,
+  C(KC_U), 	XXXXXXX,   	XXXXXXX,    	XXXXXXX,    KC_T,    KC_D,   KC_H,   KC_N,    KC_E,    KC_I,     C(KC_3), KC_2,
+  XXXXXXX,	XXXXXXX,   	XXXXXXX,    	XXXXXXX,    KC_V,    KC_B,   KC_K,   KC_M,    KC_COMM, C(KC_DEL),S(KC_2), KC_1,
+  C(KC_Z), 	KC_1, 	   	KC_2, 	  		KC_3, 		COLEMAK, KC_SPC, KC_SPC, COLEMAK, KC_LEFT, KC_DOWN,  C(KC_Z), KC_SPC
+),
+
+[_RAISE] = LAYOUT_ortho_5x12( /* RAISE - Numpad and Unicode symbols */
+  KC_GRV,  KC_1,    KC_2,   KC_3,   	KC_4, 		KC_5,    	KC_6,    KC_7, 		KC_8, KC_9, KC_0,    KC_PSCR, 
+  KC_GRV,  KC_F1, 	KC_F2, 	KC_F3, 		KC_F4,  	XXXXXXX, 	XXXXXXX, KC_7,  	KC_8, KC_9, KC_COLN, _______,
+  KC_DEL,  KC_F5, 	KC_F6, 	KC_F7, 		KC_F8,  	XXXXXXX, 	KC_ENT,  KC_4,  	KC_5, KC_6, KC_SLSH, KC_ASTR,
+  _______, KC_F9, 	KC_F10, KC_F11, 	KC_F12, 	XXXXXXX, 	KC_SPC,  KC_1,  	KC_2, KC_3, KC_MINS, KC_PLUS,
+  COLEMAK, KC_PIPE, TPUT,  	_______, 	_______, 	KC_TAB, 	KC_TAB,  _______, 	KC_0, KC_0, KC_DOT,  KC_EQL
+),
+
+[_LOWER] = LAYOUT_ortho_5x12( /* LOWER - Symbols, Paging, CtrAltDel */
+  KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    	KC_8, KC_9, KC_0,    KC_DEL, 
+  KC_TILD, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_CIRC, KC_7, 		KC_8, KC_9, KC_0,    KC_DEL,
+  KC_DEL,  KC_LBRC, KC_RBRC, KC_MINS, KC_UNDS, KC_HOME, KC_END,  KC_4, 		KC_5, KC_6, KC_SCLN, KC_PGUP,
+  CPYPST,  XXXXXXX, C(KC_X), KC_LABK, KC_RABK, XXXXXXX, XXXXXXX, KC_1, 		KC_2, KC_3, KC_COLN, KC_PGDN,
+  COLEMAK, _______, _______, _______, _______, KC_TAB,  KC_TAB,  _______, 	KC_0, KC_0, _______, _______
+),
+
+[_ADJUST] = LAYOUT_ortho_5x12( /* ADJUST - Macros, Layer Switching, Function Keys */
+  KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_BSPC, 
+  XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX,XXXXXXX, ANKIT,  	KC_NLCK, KC_F1,   KC_F2,   KC_F3,   KC_F4,   XXXXXXX,
+  XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX,DF, FPS,  	COLEMAK, KC_F5,   KC_F6,   KC_F7,   KC_F8,   XXXXXXX,
+  _______, CADKEY,  XXXXXXX, XXXXXXX, XXXXXXX, DEUS, XXXXXXX, KC_F9,   KC_F10,  KC_F11,  KC_F12,  XXXXXXX,
+  _______, _______, _______, _______, _______, RESET,   RESET,   _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX
+)
+};
