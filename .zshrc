@@ -149,7 +149,7 @@ alias sstop="systemctl stop"
 alias srestart="systemctl restart"
 alias aur="trizen"
 alias cdd="cd /hdd/Downloads/"
-alias reload_usbs=" sudo rmmod xhci_pci; sudo rmmod xhci_hcd; sudo modprobe xhci_pci xhci_hcd && sudo mount /media &"
+alias reload_usbs=" sudo rmmod xhci_pci; sudo rmmod xhci_hcd; sudo modprobe xhci_pci xhci_hcd && sudo mount /media"
 
 
 porphans(){
