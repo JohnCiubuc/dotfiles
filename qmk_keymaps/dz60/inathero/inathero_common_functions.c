@@ -8,7 +8,7 @@ extern keymap_config_t keymap_config;
 #define CADKEY  RCTL(RALT(KC_DEL))
 
 
-#define TAPPING_THRESH 100
+#define TAPPING_THRESH 150
 
 void tap(uint16_t keycode){
     register_code(keycode);
@@ -164,18 +164,18 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         return false;
         break;
     case SHFT_CAP:
-
-
-        if(record->event.pressed){
-            key_timer = timer_read();               // if the key is being pressed, we start the timer.
-            register_code(KC_LSHIFT);
-        } else {                                    // this means the key was just released (tap or "held down")
-            if(timer_elapsed(key_timer) < TAPPING_THRESH){     // Time in ms, the threshold we pick for counting something as a tap.
+        if (record->event.pressed) {
+            if (timer_elapsed(key_timer) < TAPPING_THRESH) {   
                 tap(KC_CAPS);
             }
+            else
+            {
+                key_timer = timer_read();              
+                register_code(KC_LSHIFT);
+            }
+        } else {           
             unregister_code(KC_LSHIFT);
         }
-        return false;
         break;
     // case CPYPST:                                    // One key copy/paste
     //     if(record->event.pressed){

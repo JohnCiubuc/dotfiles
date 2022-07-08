@@ -1,17 +1,19 @@
 #ifndef ZACH_COMMON_FUNCTIONS
 #define ZACH_COMMON_FUNCTIONS
 #include "quantum.h"
+#include "print.h"
 extern keymap_config_t keymap_config;
 
 
 int iAdjustLayer = 0;
+bool bShiftCap = false;
 
 #undef C
 #define C(n)    RCTL(n)
 #define CADKEY  RCTL(RALT(KC_DEL))
 
 
-#define TAPPING_THRESH 100
+#define TAPPING_THRESH 150
 
 void tap(uint16_t keycode) {
     register_code(keycode);
@@ -28,6 +30,8 @@ enum my_keycodes {
     // Layer numbers
     _COLEMAK = 0,
     _QWERTY,
+    _GAME1,
+    _GAME2,
     _NUMS,
     _FUNS,
     _MIDDLE,
@@ -39,6 +43,8 @@ enum my_keycodes {
     // These use process_record_user()
     QWERTY = SAFE_RANGE,
     COLEMAK,
+    GAME1,
+    GAME2,
     QWERTYANKI,
     SHFT_CAP,
     FN_RAISE,
@@ -104,14 +110,29 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             layer_move(_COLEMAK);
         return false;
 
+    case GAME1:
+    print ("GAME1");
+        if (record->event.pressed)
+            layer_move(_GAME1);
+        return false;
+    case GAME2:
+    print ("GAME2");
+        if (record->event.pressed)
+            layer_move(_GAME2);
+        return false;
+
+
     case SHFT_CAP:
         if (record->event.pressed) {
-            key_timer = timer_read();              
-            register_code(KC_LSHIFT);
-        } else {                                  
-            if (timer_elapsed(key_timer) < TAPPING_THRESH) {   
+        	if (timer_elapsed(key_timer) < TAPPING_THRESH) {   
                 tap(KC_CAPS);
             }
+            else
+            {
+	            key_timer = timer_read();              
+	            register_code(KC_LSHIFT);
+            }
+        } else {           
             unregister_code(KC_LSHIFT);
         }
         return false;

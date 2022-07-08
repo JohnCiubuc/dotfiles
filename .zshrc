@@ -152,6 +152,11 @@ alias cdd="cd /hdd/Downloads/"
 alias reload_usbs=" sudo rmmod xhci_pci; sudo rmmod xhci_hcd; sudo modprobe xhci_pci xhci_hcd && sudo mount /media"
 
 
+alias remarkable2-mount="sshfs remarkable2:/ /run/media/inathero/ReMarkable"
+alias remarkable1-mount="sshfs remarkable1:/ /run/media/inathero/ReMarkable"
+
+alias kobomount=" sshfs root@kobo:/mnt/onboard/ /run/media/inathero/kobo"
+
 porphans(){
 sudo  pacman -Rns $(pacman -Qtdq)
 }
@@ -195,3 +200,5 @@ bindkey "^[[B" history-beginning-search-forward
 alias hg='history | grep'
 
 export PATH="$HOME/.poetry/bin:$PATH"
+
+
