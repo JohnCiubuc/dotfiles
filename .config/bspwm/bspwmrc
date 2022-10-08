@@ -1,12 +1,11 @@
 #! /bin/sh
 
-sxhkd &
 xsetroot -cursor_name left_ptr &
 
 
 
-#bspc monitor DisplayPort-0 -d I II III IV V VI VII VIII IX X
-bspc monitor DP-1 -d I II III IV V VI VII VIII IX X
+bspc monitor DisplayPort-2 -d I II III IV V VI VII VIII IX X
+#bspc monitor DP-0 -d I II III IV V VI VII VIII IX X
 #bspc monitor -d I II III IV V VI VII VIII IX X
 
 bspc config border_width         1
@@ -40,23 +39,25 @@ bspc rule -a Zathura state=tiled
 #copyq &
 pnmixer&
 feh --randomize --bg-scale ~/Pictures/wp/*
-#xrandr --output DisplayPort-1 --mode 2560x1440 --rate 144 --right-of DisplayPort-0
+#xrandr --output DisplayPort-0 --mode 2560x1440 --rate 144 --right-of DisplayPort-0
 #xrandr --output DisplayPort-0 --primary
 
 
 
-#protonmail-bridge  --no-window &
-#thunderbird &
+protonmail-bridge  --no-window &
+thunderbird &
 #voice-commander &
 xrandr --output DP-2 --mode 2560x1440 --rate 144
 #steam -silent&
-#compton &
+#picom &
 #/home/inathero/Scripts/linuxsampler-piano &
 #/home/inathero/Gits/leap-linux/build/leap-linux &
 #wmctrl -r Thunderbird -t 9 &
 #protonvpn-cli r &
 $HOME/.config/polybar/launch.sh &
-xrandr --output DP-2 --mode 2560x1440 --rate 144 --right-of DP-1
-xrandr --output DP-1 --primary
-#xrandr --output DP-1 --mode 2560x1440 --rate 144 --scale 1x1
-#xrandr --output DP-2 --mode 1920x1080 --rate 60 --right-of DP-1
+#xrandr --output DP-2 --mode 2560x1440 --rate 144 --right-of DP-0
+#xrandr --output DP-0 --primary
+xrandr --output DisplayPort-0 --mode 2560x1440 --rate 144 --right-of DisplayPort-2
+xrandr --output DisplayPort-2 --primary
+#xrandr --output DP-0 --mode 2560x1440 --rate 144 --scale 1x1
+#xrandr --output DP-2 --mode 1920x1080 --rate 60 --right-of DP-0

@@ -40,11 +40,12 @@ clipit &
 xcalib -d :0 -s 0 -v /windows/Windows/System32/spool/drivers/color/XL2730Z\ \#1\ 2019-10-20\ 18-31\ sRGB\ F-S\ 1xCurve+MTX.icm &
 redshift -l 33.57786:-101.85517 -m randr:preserve=1 -b 1:0.7 &
 setxkbmap -option compose:ralt
-picom &
 #eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
+ /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 export SSH_AUTH_SOCK
 # /home/inathero/Scripts/start-jack-server &
 nm-applet &
+sxhkd &
 exec bspwm
 #exec startplasma-x11
 
