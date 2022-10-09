@@ -8,8 +8,9 @@ audio_device_state:0:HW 2
 audio_device_state:0:HW 3
 audio_device_state:0:Uncompressed Stream
 audio_device_state:0:Flac Stream
-state: stop
-current: 14
+state: pause
+current: 28
+time: 215.092000
 random: 0
 repeat: 1
 single: 0
@@ -40,4 +41,13 @@ playlist_begin
 19:Varien/Valkyrie/Varien_feat_Laura_Brehm_-_Valkyrie.flac
 20:Varien/Valkyrie/Varien_feat_Cassandra_Kay_-_Valkyrie_II_Lacuna.flac
 21:Varien/Valkyrie/Varien_feat_Laura_Brehm_-_Valkyrie_III_Atonement.flac
+22:Trazer/Life/01 The Gift of Being.aiff
+23:Trazer/Life/02 Trust this Moment.aiff
+24:Trazer/Life/03 Forever.aiff
+25:Trazer/Life/04 Life.aiff
+26:Trazer/Life/05 Push Yourself.aiff
+27:Trazer/Life/06 Breath.aiff
+28:Trazer/Life/07 Drive.aiff
+29:Trazer/Life/08 Night Sky (remix).aiff
+30:Trazer/Life/09 Dreams of Light (remix).aiff
 playlist_end

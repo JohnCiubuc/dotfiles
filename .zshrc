@@ -137,6 +137,8 @@ alias mechwild="subl /games/qmk_firmware/keyboards/mechwild/mercutio/keymaps/ina
 alias mechbuild="cd /games/qmk_firmware && make mechwild/mercutio:inathero:usbasp"
 alias mini="subl /games/qmk_firmware/keyboards/boardsource/4x12/keymaps/inathero/inathero_common_functions.c /games/qmk_firmware/keyboards/boardsource/4x12/keymaps/inathero/keymap.c"
 alias minibuild="cd /games/qmk_firmware && make  boardsource/4x12:inathero:dfu"
+alias pi40="subl /games/qmk_firmware/keyboards/1upkeyboards/pi40/keymaps/inathero/inathero_common_functions.c /games/qmk_firmware/keyboards/1upkeyboards/pi40/keymaps/inathero/keymap.c"
+alias pi40build="cd /games/qmk_firmware && make 1upkeyboards/pi40:inathero:flash"
 alias dwarf="cd /games/Dwarf\ Fortress/ && ./run-df"
 alias config="vim ~/.config/bspwm/bspwmrc"
 alias plover="sudo /opt/plover-4.0.0.dev10-x86_64.AppImage"
@@ -233,3 +235,4 @@ export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 export JINA_DEFAULT_WORKSPACE_BASE="${HOME}/.jina/executor-workspace"
 
 # JINA_CLI_END
+#  a
