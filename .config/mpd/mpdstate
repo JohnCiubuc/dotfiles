@@ -8,9 +8,8 @@ audio_device_state:0:HW 2
 audio_device_state:0:HW 3
 audio_device_state:0:Uncompressed Stream
 audio_device_state:0:Flac Stream
-state: pause
-current: 28
-time: 215.092000
+state: stop
+current: 15
 random: 0
 repeat: 1
 single: 0
@@ -19,35 +18,27 @@ crossfade: 6
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Varien/Mirai Sekai/Varien_amp_7_Minutes_Dead_-_Mirai_Sekai_Pt_1_Neo-Seoul.flac
-1:Varien/Mirai Sekai/Varien_amp_7_Minutes_Dead_-_Mirai_Sekai_Pt_2_Neo-Tokyo.flac
-2:Varien/Mirai Sekai/Varien_amp_7_Minutes_Dead_-_Mirai_Sekai_Pt_3_Aeon_Metropolis.flac
-3:Varien/Mirai Sekai/Varien_amp_7_Minutes_Dead_-_Mirai_Sekai_Pt_4_Goodnight_Sequence.flac
-4:Varien/My Prayers Have Become Ghosts/01_Varien_-_Lest_We_Resign_to_Oblivion.flac
-5:Varien/My Prayers Have Become Ghosts/02_Varien_-_Dawn_Will_Bring_Us_Death.flac
-6:Varien/My Prayers Have Become Ghosts/03_Varien_-_TEVA833.flac
-7:Varien/My Prayers Have Become Ghosts/04_Varien_-_My_Prayers_Have_Become_Ghosts.flac
-8:Varien/My Prayers Have Become Ghosts/05_Varien_-_The_Pink_Killing_Floor.flac
-9:Varien/My Prayers Have Become Ghosts/06_Varien_-_Hear_Smith_of_Heavens.flac
-10:Varien/My Prayers Have Become Ghosts/07_Varien_-_The_Pink_Killing_Floor_Radio_Edit.flac
-11:Varien/The Ancient & Arcane/01 - The Ancient & Arcane.flac
-12:Varien/The Ancient & Arcane/02 - Snowlight.flac
-13:Varien/The Ancient & Arcane/03 - Supercell.flac
-14:Varien/The Ancient & Arcane/04 - Transmissions from Lemuria.flac
-15:Varien/The Ancient & Arcane/05 - Hypnotique.flac
-16:Varien/The Ancient & Arcane/06 - Firefly (Intermission).flac
-17:Varien/The Ancient & Arcane/07 - Kamisama.flac
-18:Varien/The Ancient & Arcane/08 - Ghost Spores.flac
-19:Varien/Valkyrie/Varien_feat_Laura_Brehm_-_Valkyrie.flac
-20:Varien/Valkyrie/Varien_feat_Cassandra_Kay_-_Valkyrie_II_Lacuna.flac
-21:Varien/Valkyrie/Varien_feat_Laura_Brehm_-_Valkyrie_III_Atonement.flac
-22:Trazer/Life/01 The Gift of Being.aiff
-23:Trazer/Life/02 Trust this Moment.aiff
-24:Trazer/Life/03 Forever.aiff
-25:Trazer/Life/04 Life.aiff
-26:Trazer/Life/05 Push Yourself.aiff
-27:Trazer/Life/06 Breath.aiff
-28:Trazer/Life/07 Drive.aiff
-29:Trazer/Life/08 Night Sky (remix).aiff
-30:Trazer/Life/09 Dreams of Light (remix).aiff
+0:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/01. Converting Vegetarians.mp3
+1:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/02. Elation Station.mp3
+2:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/03. Drop Out.mp3
+3:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/04. Avratz.mp3
+4:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/05. Blink.mp3
+5:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/06. Shakawkaw.mp3
+6:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/07. Pletzturra.mp3
+7:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/08. I Wish.mp3
+8:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/09. Ballerium.mp3
+9:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/10. Selec'ta.mp3
+10:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/11. Illuminaughty.mp3
+11:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/12. Jeenge.mp3
+12:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/13. Elevation.mp3
+13:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/01. Albibeno.mp3
+14:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/02. Hush Mail.mp3
+15:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/03. Apogiffa Night.mp3
+16:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/04. Song Pong.mp3
+17:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/05. Chaplin.mp3
+18:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/06. Echonomix.mp3
+19:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/07. Scorpion Frog.mp3
+20:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/08. Deeply Disturbed.mp3
+21:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/09. Semi Nice.mp3
+22:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/10. Yanko Pitch.mp3
 playlist_end

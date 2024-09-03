@@ -32,6 +32,8 @@ enum my_keycodes {
     _QWERTY,
     _GAME1,
     _GAME2,
+    _GAME3,
+    _GAME4,
     _NUMS,
     _FUNS,
     _MIDDLE,
@@ -45,6 +47,8 @@ enum my_keycodes {
     COLEMAK,
     GAME1,
     GAME2,
+    GAME3,
+    GAME4,
     QWERTYANKI,
     SHFT_CAP,
     FN_RAISE,
@@ -119,6 +123,16 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     print ("GAME2");
         if (record->event.pressed)
             layer_move(_GAME2);
+        return false;
+    case GAME3:
+    print ("GAME3");
+        if (record->event.pressed)
+            layer_move(_GAME3);
+        return false;
+    case GAME4:
+    print ("GAME4");
+        if (record->event.pressed)
+            layer_move(_GAME4);
         return false;
 
 

@@ -6,6 +6,12 @@
 #
 
 # Control lights
+super + shift + s
+    gnome-screenshot -ca
+
+# Doom Run
+super + d
+    cd /tmp && /home/inathero/.emacs.d/bin/doom run
 
 super + ctrl + {q, w, e, r, t}
      /home/inathero/Gits/lifx-configurator/lifx-configurator {-p 0, -p 1, -b 20, -b 50, -b 100} -ip 192.168.1.110
@@ -17,7 +23,9 @@ super + ctrl + {Up, Down, Tab}
      /home/inathero/Scripts/lifx-config-percentage.sh {+,-,.}
 # switch keymap
 super + q
-    /hdd/colemak-1.0/swap-layout
+    /usr/bin/qutesearch.sh
+super + shift + q
+    /usr/bin/quteopenai
 # terminal emulator
 super + Return
    st
@@ -69,9 +77,9 @@ super + {Up,Down}
 
 
 XF86AudioRaiseVolume
-     pactl set-sink-volume alsa_output.usb-PS_Audio_PS_Audio_USB_Audio_2.0-00.analog-stereo  +2%
+     pactl set-sink-volume 0  +5%
 XF86AudioLowerVolume
-     pactl set-sink-volume alsa_output.usb-PS_Audio_PS_Audio_USB_Audio_2.0-00.analog-stereo  -2%
+     pactl set-sink-volume 0  -5%
 XF86AudioMute
     amixer set Master toggle
 
@@ -102,7 +110,7 @@ ctrl + super + l
     bspc node -c
 
 super + n
-   nautilus -w
+   GTK_THEME=Adwaita-dark nautilus -w
  
 ctrl + shift + Escape
     gnome-system-monitor

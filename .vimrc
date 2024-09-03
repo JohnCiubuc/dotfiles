@@ -63,7 +63,7 @@ let g:cpp_member_variable_highlight = 1
 let g:cpp_class_decl_highlight = 1
 let g:cpp_experimental_simple_template_highlight = 1
 
-autocmd BufWritePost * if empty(&bt) && index(['cpp', 'c'], &ft)!=-1 | execute '!astyle' shellescape(@%, 1) | endif
+"autocmd BufWritePost * if empty(&bt) && index(['cpp', 'c'], &ft)!=-1 | execute '!astyle' shellescape(@%, 1) | endif
 let g:vimtex_compiler_latexmk = { 
         \ 'executable' : 'latexmk',
         \ 'options' : [ 
@@ -76,3 +76,4 @@ let g:vimtex_compiler_latexmk = {
 "if has('gui_running')
 "  set guifont=Source\ Code\ Pro\ for\ Powerline\ Semi-Bold\ 12
 "endif
+:command Runner !ls
