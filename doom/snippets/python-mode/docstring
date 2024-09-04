@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: docstring
+# key: docstring
+# condition: (and (eq major-mode 'python-mode) (eq yas-selected-text nil))
+# expand-env: ((function-name (which-function)))
+# --
+"""${1:Description}.
+
+${2:Args:}
+"""

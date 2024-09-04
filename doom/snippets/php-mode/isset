@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: isset
+# key: isset
+# --
+if (isset($1)) {
+
+}
+else {
+
+}

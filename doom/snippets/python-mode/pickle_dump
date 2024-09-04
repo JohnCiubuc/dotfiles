@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: pickle dump
+# key: picd
+# --
+with open("${1:File}.pckl", 'wb') as file:
+     pickle.dump(${2:Object}, file)

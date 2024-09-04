@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: pickle read
+# key: picr
+# --
+with open("${1:File}.pckl", "rb") as file:
+     ${2:Object} = pickle.load(file)
