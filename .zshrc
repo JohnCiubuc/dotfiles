@@ -1,4 +1,4 @@
-  # Path to your oh-my-zsh installation.
+    # Path to your oh-my-zsh installation.
   # /reload
   #
   ZSH=/usr/share/oh-my-zsh/
@@ -168,7 +168,7 @@ sudo  pacman -Rns $(pacman -Qtdq)
 }
 
 st(){
-streamlink https://www.twitch.tv/$1 best --player=mpv --twitch-low-latency "--twitch-api-header=Authorization=OAuth va9dpbiegn8zqqntcqxbwp18djj467" &
+streamlink https://www.twitch.tv/$1 best --twitch-disable-ads --player=mpv --twitch-low-latency "--twitch-api-header=Authorization=OAuth va9dpbiegn8zqqntcqxbwp18djj467" &
 chatterino
 }
 
@@ -277,3 +277,4 @@ xset r rate 200 30
 #
 alias infogit="GIT_SSH_COMMAND=\"ssh -i ~/.ssh/inathero\" git $@"
 alias yayskip="yay -Quq --aur | xargs -n 1 yay -S --noconfirm"
+alias espconf="doom run  /home/inathero/.config/espanso/match/"

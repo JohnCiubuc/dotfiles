@@ -1,0 +1,43 @@
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # Simple text replacement
+  # Vascular Dementia
+  - trigger: ".vascdem"
+    replace: "Multifactorial including prior history of alcohol abuse and cerebrovascular events. Avoid benzodiazepines. Patient is not a candidate for Alzheimer's medications. Memory training, avoid confrontation, and sleep hygiene recommended."
+    # Physical Therapy Muscle Weakness
+  - trigger: ".pt"
+    replace: "Physical therapy, compression therapy, gait and balance training and muscle strengthening exercises with fall precautions. "
+    # Type II DM uncomplicated
+  - trigger: ".t2dm"
+    replace: "Continue monitor blood sugars, adjust medication accordingly, avoid hypoglycemia. Hemoglobin A1c on a regular basis eye exam and regular foot exam recommended."
+    # HTN Uncomplicated
+  - trigger: ".htn"
+    replace: "Continue with current medication profile and avoid hypotension. Adjust medication regimen as appropriate."
+    # COPD Uncomplicated
+  - trigger: ".copduc"
+    replace: "Clinically asymptomatic. Monitor for cardiovascular respiratory symptoms with symptomatic management as needed."
+    # Hypothyroid Uncomplicated
+  - trigger: ".hypot"
+    replace: "Continue thyroid hormone replacement monitor TSH on regular intervals"
+ #Generic ROS
+  - trigger: ".generic"
+    replace: "Patient was evaluated at bedside. Patient is in no acute distress and is overall feeling well. Patient denies of chest pain/pressure/tightness, dyspnea, pleurisy, nausea, vomiting, vision changes, syncope, constipation, or diarrhea. Patient has been tolerating oral intake, having regular bowel movements, and has been sleeping well. No acute events reported."
+    # Urinary Symptoms
+  - trigger: ".urinary"
+    replace: "Patient denies of any urinary symptoms including burning with urination, urinary hesitancy, suprapubic tenderness, increased frequency of urination, sensation of incomplete voiding, or changes in urinary smell, texture, or color."
+    # Nutritional 
+  - trigger: ".nutrition"
+    replace: "Encourage nutritional intake,  nutritional consult.  Supplement meals with increased protein content or shakes as per patient's p.o. tolerance and nutritional requirements"
+  # Routine CC
+  - trigger: ".rcc"
+    replace: "Patient is seen today for routine follow-up, medication management, review for laboratory, management of chronic disease and assessment of patient current status."
+  # Ulcer / Wound Care
+  - trigger: ".wound"
+    replace: "Continue with local wound care, consult wound specialist for debridement. Monitor for signs and symptoms of infection. Patient repositioning every 2 hours."

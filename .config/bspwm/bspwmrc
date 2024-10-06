@@ -65,7 +65,7 @@ xrandr --output DisplayPort-2 --mode 2560x1440 --rate 144
 dunst &
 whale &
 #redshift -l 33.57786:-101.85517 -m randr:preserve=1 -b 1:0.7 &
-kdeconnect-indicator &
+#kdeconnect-indicator &
 #xrandr --output DP-0 --mode 2560x1440 --rate 144 --scale 1x1
 #xrandr --output DP-2 --mode 1920x1080 --rate 60 --right-of DP-0
 $HOME/.config/polybar/launch.sh &
