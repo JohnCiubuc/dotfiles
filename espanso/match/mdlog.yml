@@ -38,6 +38,21 @@ matches:
   # Routine CC
   - trigger: ".rcc"
     replace: "Patient is seen today for routine follow-up, medication management, review for laboratory, management of chronic disease and assessment of patient current status."
+  # Routine Admission
+  - trigger: ".rap"
+    replace: "Patient seen today as part of admission process for history and physical."
   # Ulcer / Wound Care
   - trigger: ".wound"
     replace: "Continue with local wound care, consult wound specialist for debridement. Monitor for signs and symptoms of infection. Patient repositioning every 2 hours."
+
+  # Ulcer / Wound Care
+  - trigger: ".contmed"
+    replace: "Continue with current plan of care. Adjust as appropriate"
+
+  # Gait / Hemiplegia
+  - trigger: ".gait"
+    replace: "Physical therapy, Occupational Therapy with gait and balance training and neuro logical assessment on regular basis."
+
+  # Alcohol
+  - trigger: ".alcohol"
+    replace: "Continue vitamin B1 supplement, counseling on a regular basis recommended at this point."
