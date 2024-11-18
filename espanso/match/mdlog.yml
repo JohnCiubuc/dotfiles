@@ -28,7 +28,7 @@ matches:
     replace: "Continue thyroid hormone replacement monitor TSH on regular intervals"
  #Generic ROS
   - trigger: ".generic"
-    replace: "Patient was evaluated at bedside. Patient is in no acute distress and is overall feeling well. Patient denies of chest pain/pressure/tightness, dyspnea, pleurisy, nausea, vomiting, vision changes, syncope, constipation, or diarrhea. Patient has been tolerating oral intake, having regular bowel movements, and has been sleeping well. No acute events reported."
+    replace: "Patient was evaluated at bedside. Patient is in no acute distress and is overall feeling well. Patient denies of any chest pain/pressure/tightness, dyspnea, pleurisy, nausea, vomiting, fevers, chills, myalgias, malaise, vision changes, syncope, constipation, or diarrhea. Patient has been tolerating oral intake, having regular bowel movements, and has been sleeping well. No acute events reported."
     # Urinary Symptoms
   - trigger: ".urinary"
     replace: "Patient denies of any urinary symptoms including burning with urination, urinary hesitancy, suprapubic tenderness, increased frequency of urination, sensation of incomplete voiding, or changes in urinary smell, texture, or color."
@@ -56,3 +56,32 @@ matches:
   # Alcohol
   - trigger: ".alcohol"
     replace: "Continue vitamin B1 supplement, counseling on a regular basis recommended at this point."
+
+
+  # annual
+  - trigger: ".annual"
+    replace: "Patient is seen today for annual wellness history and physical."
+
+  # annual
+  - trigger: ".explain"
+    replace: "A total of 20 minutes today was spent discussing patient's current medical condition, plan of care, and prognosis with patient and family at bedside.   All questions and concerns were addressed.  Patient and family agreed with current plan of care."
+
+  # H&P
+  - trigger: ".rad"
+    replace: "Patient is seen today as part of admission process for history and physical."
+
+    # Diabetes
+  - trigger: ".dm2"
+    replace: "Continue monitor blood sugars, adjust medication accordingly, avoid hypoglycemia. Hemoglobin A1c on a regular basis eye exam and regular foot exam recommended."
+
+    # HDL
+  - trigger: ".hld"
+    replace: "Discontinue statins. Encourage lifestyle modifications. Monitor with routine Lipid panels."
+
+    #CKD
+  - trigger: ".ckd"
+    replace: "Avoid nephrotoxic agents. Promote oral intake. "
+
+    #Dementia
+  - trigger: ".dementia"
+    replace: "Continue current medication profile.  No stimulant past 1 PM.  Gentle redirection.  Nonconfrontational behavior.  Sleep hygiene."

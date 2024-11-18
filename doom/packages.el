@@ -64,3 +64,4 @@
 (package! cape)
 (package! citar)
 (package! centaur-tabs)
+(package! gptel)

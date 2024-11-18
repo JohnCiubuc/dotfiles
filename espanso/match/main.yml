@@ -21,3 +21,7 @@ matches:
     replace: "👌"
   - trigger: ".ks"
     replace: "😘"
+  - trigger: ".tb"
+    replace: "👍"
+  - trigger: ".sw"
+    replace: "😅"

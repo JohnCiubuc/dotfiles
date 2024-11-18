@@ -298,3 +298,4 @@
 (setq doom-themes-treemacs-theme "doom-colors")
 (add-hook 'after-init-hook #'global-emojify-mode)
 (setq projectile-enable-caching nil)
+
