@@ -9,8 +9,6 @@
 # it gets replaced by the "replace" string.
 matches:
   # Simple text replacement
-  - trigger: ".sp"
-    replace: "*Surprised Pikachu*"
   - trigger: ".fr"
     replace: "🔥"
   - trigger: ".hr"
@@ -25,3 +23,7 @@ matches:
     replace: "👍"
   - trigger: ".sw"
     replace: "😅"
+  - trigger: ".sh"
+    replace: "🤷"
+  - trigger: ".bl"
+    replace: "🙏"

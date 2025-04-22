@@ -1,0 +1,4 @@
+# key: comp
+# name: VUE Import Component
+# --
+ import $1 from '@/components/$1.vue';

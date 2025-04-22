@@ -32,8 +32,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [_FUNCTION] = LAYOUT_64_ansi( /* Layer 0: Qwerty */
         QK_BOOT,       KC_F1,   KC_F2,  KC_F3,  KC_F4,      KC_F5, KC_F6,   KC_F7,      KC_F8,   KC_F9,  KC_F10,    KC_F11,KC_F12, KC_DEL,
-        KC_HOME,       KC_GRV,  KC_TILDE, KC_F13, QWERTY, XXXX,  XXXX,    XXXX,       KC_7,    KC_8,   KC_9,      XXXX,   XXXX,   XXXX,
-        KC_INSERT,       XXXX,    XXXX,   XXXX,   QWERTY,     XXXX,  XXXX,    COLEMAK,    KC_4,    KC_5,   KC_6,      XXXX,           KC_ENT,
+        KC_HOME,       KC_GRV,  KC_TILDE, KC_F13, QWERTY, XXXX,  XXXX,    XXXX,       KC_7,    KC_8,   KC_9,      XXXX,   XXXX,   KC_PGUP,
+        KC_INSERT,       XXXX,    XXXX,   XXXX,   QWERTY,     XXXX,  XXXX,    COLEMAK,    KC_4,    KC_5,   KC_6,      XXXX,           KC_PGDN,
         SHFT_CAP,    XXXX,    XXXX,   XXXX,   XXXX,       XXXX,  XXXX,    XXXX,       KC_1,    KC_2,   KC_3,      KC_RSFT,RGBL, COLEMAK,
         XXXX,      KC_LALT,    KC_LGUI,                    KC_0,                                XXXX,   XXXX,      XXXX,   XXXX,   KC_PSCR
     ),

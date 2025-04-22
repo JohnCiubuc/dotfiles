@@ -9,8 +9,12 @@
 matches:
   # Simple text replacement
   # Vascular Dementia
-  - trigger: ".vascdem"
+  - trigger: ".vascdem1"
     replace: "Multifactorial including prior history of alcohol abuse and cerebrovascular events. Avoid benzodiazepines. Patient is not a candidate for Alzheimer's medications. Memory training, avoid confrontation, and sleep hygiene recommended."
+  # Vascular Dementia
+  - trigger: ".vascdem2"
+    replace: "Patient reports step-like cognitive decline 2-3 years ago with relative stability since.  Abrupt onset, nocturnal confusion, preservation of personality, lability of depression, somatic complaints, occasional bouts of impulsive behavior and agitation, uncontrolled hypertension, with cognitive impairments noted during evaluation.  Patient likely exhibits vascular dementia in the context of uncontrolled blood pressure, significant multidrug abuse of cocaine and methamphetamines, and ESRD.
+      Pending Mini-Mental examination, laboratory workup for reversible causes of dementia.  Discontinue memantine.  Promote exercise, participation in facility activities, nonconfrontational behavior, lifestyle changes, physical therapy, Occupational Therapy."
     # Physical Therapy Muscle Weakness
   - trigger: ".pt"
     replace: "Physical therapy, compression therapy, gait and balance training and muscle strengthening exercises with fall precautions. "
@@ -28,7 +32,7 @@ matches:
     replace: "Continue thyroid hormone replacement monitor TSH on regular intervals"
  #Generic ROS
   - trigger: ".generic"
-    replace: "Patient was evaluated at bedside. Patient is in no acute distress and is overall feeling well. Patient denies of any chest pain/pressure/tightness, dyspnea, pleurisy, nausea, vomiting, fevers, chills, myalgias, malaise, vision changes, syncope, constipation, or diarrhea. Patient has been tolerating oral intake, having regular bowel movements, and has been sleeping well. No acute events reported."
+    replace: "Patient was evaluated at bedside. Patient is in no acute distress and is overall feeling well. Patient denies of any chest pain/pressure/tightness, dyspnea, pleurisy, nausea, vomiting, fevers, chills, myalgias, malaise, vision changes, syncope, constipation, or diarrhea. Patient has been tolerating oral intake, having regular bowel movements, and has been sleeping well. No interim development of ulcerations reported by nursing staff. No acute events or behavioral changes reported."
     # Urinary Symptoms
   - trigger: ".urinary"
     replace: "Patient denies of any urinary symptoms including burning with urination, urinary hesitancy, suprapubic tenderness, increased frequency of urination, sensation of incomplete voiding, or changes in urinary smell, texture, or color."
@@ -57,6 +61,11 @@ matches:
   - trigger: ".alcohol"
     replace: "Continue vitamin B1 supplement, counseling on a regular basis recommended at this point."
 
+  - trigger: ".vitd"
+    replace: "Continue vitamin D supplementation of 50,000 IU once weekly. Monitor with routine labs."
+  - trigger: ".obese"
+    replace: "Recommend close dietary control.  Patient would have a morbidity and mortality benefits following appropriate weight loss under dietary supervision."
+
 
   # annual
   - trigger: ".annual"
@@ -64,7 +73,7 @@ matches:
 
   # annual
   - trigger: ".explain"
-    replace: "A total of 20 minutes today was spent discussing patient's current medical condition, plan of care, and prognosis with patient and family at bedside.   All questions and concerns were addressed.  Patient and family agreed with current plan of care."
+    replace: "A total of 45 minutes were dedicated reviewing patient's plan of care, labs, medication profile, and evaluation of patient's current and chronic medical conditions, as well as addressing all of patient's and family's questions and concerns during today's examination.  All questions and concerns were addressed.  Patient and family agree with plan of care as described."
 
   # H&P
   - trigger: ".rad"
@@ -76,12 +85,42 @@ matches:
 
     # HDL
   - trigger: ".hld"
-    replace: "Discontinue statins. Encourage lifestyle modifications. Monitor with routine Lipid panels."
+    replace: "Lipid panel WNL. Usage of statins, particularly high-intensity statins, in this population is controversial. Discontinue statins. Encourage lifestyle modifications. Monitor with routine Lipid panels."
 
     #CKD
   - trigger: ".ckd"
     replace: "Avoid nephrotoxic agents. Promote oral intake. "
 
+    #Fall precauations
+  - trigger: ".fall"
+    replace: "Continue with fall precautions. PT and OT"
+    #ESRD
+  - trigger: ".esrd"
+    replace: "ESRD on HD [MWF/TRS] schedule. Continue HD sessions. Monitor for any Hypotension and Hypoglycemic events"
+
     #Dementia
   - trigger: ".dementia"
     replace: "Continue current medication profile.  No stimulant past 1 PM.  Gentle redirection.  Nonconfrontational behavior.  Sleep hygiene."
+
+    #Continue
+  - trigger: ".cont"
+    replace: "Continue current medication profile. Monitor with routine labs"
+
+    #RLS
+  - trigger: ".rls"
+    replace: "Patient exhibits symptoms of restless at night, specifically BLE, shortly upon attempting to sleep. Sensation improves upon moving, worsens while stationary, and are exacerbated by rest and in the evenings. Patient denies neuropathic symptoms (burning, pins, needles), and endorses rubbing and stretching of affected limbs. Presentation is consistent with Restless Leg Syndrome. Recommend trial of 0.25mg Ropinarole and Iron 65mg once every other day. Monitor sleep quality and any changes in clinical presentation"
+
+    #nutrition risk
+  - trigger: ".protein"
+    replace: "Patient is at risk for protein-caloric malnutrition. Maximize nutritional intake, observe clinically. Promote lifestyle modifications."
+
+    #teeth1
+  - trigger: ".teeth"
+    replace: "Partial edentulism"
+
+  - trigger: ".wt"
+    replace: "Patient is seen today due to concerns of weight loss and dehydration, medication management, review for laboratory, management of chronic disease and assessment of patient current status."
+  - trigger: ".ros"
+    replace: "The following system review was negative unless specified otherwise in the HPI: Constitutional;Respiratory;Cardiovascular;Genitourinary;Gastro-intestinal;Psychiatric;Ear-Nose-Throat;Musculoskeletal;Neurologic;Endocrine;Hematologic;Skin;Eyes;"
+  - trigger: ".age"
+    replace: "Due to extreme age.  Avoid confrontational behaviors.  Memory training."

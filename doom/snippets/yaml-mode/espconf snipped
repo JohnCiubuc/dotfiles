@@ -1,0 +1,6 @@
+# key:
+
+# name: espconf snipped
+# --
+  - trigger: \"$1\"
+    replace: \"$2\"

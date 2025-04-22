@@ -84,8 +84,8 @@
 ;;(volatile-highlights-mode t)
 (beacon-mode 1)
 ;;(use-package! 'orderless)
-(setq completion-styles '(orderless basic)
-      completion-category-overrides '((file (styles basic partial-completion))))
+;; (setq completion-styles '(orderless basic)
+;;       completion-category-overrides '((file (styles basic partial-completion))))
 ;;(use-package! 'embark)
 ;;(use-package! 'focus)
 ;;(use-package! 'move-text)
@@ -93,7 +93,7 @@
 
 (move-text-default-bindings)
 
-(google-this-mode 1)
+;;(google-this-mode 1)
 
 ;;(desktop-save-mode 1)
 
@@ -145,119 +145,49 @@
 ;;             corfu-auto-prefix 0
 ;;             completion-styles '(basic))
 ;; Optionally use the `orderless' completion style.
-(use-package orderless
-  :init
-  ;; Configure a custom style dispatcher (see the Consult wiki)
-  ;; (setq orderless-style-dispatchers '(+orderless-dispatch)
-  ;;       orderless-component-separator #'orderless-escapable-split-on-space)
-  (setq completion-styles '(orderless basic)
-        completion-category-defaults nil
-        completion-category-overrides '((file (styles . (partial-completion))))))
+
+;; (use-package orderless
+;;   :init
+;;   ;; Configure a custom style dispatcher (see the Consult wiki)
+;;   ;; (setq orderless-style-dispatchers '(+orderless-dispatch)
+;;   ;;       orderless-component-separator #'orderless-escapable-split-on-space)
+;;   (setq completion-styles '(orderless basic)
+;;         completion-category-defaults nil
+;;         completion-category-overrides '((file (styles . (partial-completion))))))
 
 
 
 ;;(global-hungry-delete-mode)
 ;; Add extensions
-(use-package cape
-  ;; Bind dedicated completion commands
-  ;; Alternative prefix keys: C-c p, M-p, M-+, ...
-  :bind (("C-c p p" . completion-at-point) ;; capf
-         ("C-c p t" . complete-tag)        ;; etags
-         ("C-c p d" . cape-dabbrev)        ;; or dabbrev-completion
-         ("C-c p h" . cape-history)
-         ("C-c p f" . cape-file)
-         ("C-c p k" . cape-keyword)
-         ("C-c p s" . cape-symbol)
-         ("C-c p a" . cape-abbrev)
-         ("C-c p l" . cape-line)
-         ("C-c p w" . cape-dict)
-         ("C-c p \\" . cape-tex)
-         ("C-c p _" . cape-tex)
-         ("C-c p ^" . cape-tex)
-         ("C-c p &" . cape-sgml)
-         ("C-c p r" . cape-rfc1345))
-  :init
-  ;; Add `completion-at-point-functions', used by `completion-at-point'.
-  ;; NOTE: The order matters!
-  (add-to-list 'completion-at-point-functions #'cape-dabbrev)
-  (add-to-list 'completion-at-point-functions #'cape-file)
-  (add-to-list 'completion-at-point-functions #'cape-elisp-block)
-)
+;; (use-package cape
+;;   ;; Bind dedicated completion commands
+;;   ;; Alternative prefix keys: C-c p, M-p, M-+, ...
+;;   :bind (("C-c p p" . completion-at-point) ;; capf
+;;          ("C-c p t" . complete-tag)        ;; etags
+;;          ("C-c p d" . cape-dabbrev)        ;; or dabbrev-completion
+;;          ("C-c p h" . cape-history)
+;;          ("C-c p f" . cape-file)
+;;          ("C-c p k" . cape-keyword)
+;;          ("C-c p s" . cape-symbol)
+;;          ("C-c p a" . cape-abbrev)
+;;          ("C-c p l" . cape-line)
+;;          ("C-c p w" . cape-dict)
+;;          ("C-c p \\" . cape-tex)
+;;          ("C-c p _" . cape-tex)
+;;          ("C-c p ^" . cape-tex)
+;;          ("C-c p &" . cape-sgml)
+;;          ("C-c p r" . cape-rfc1345))
+;;   :init
+;;   ;; Add `completion-at-point-functions', used by `completion-at-point'.
+;;   ;; NOTE: The order matters!
+;;   (add-to-list 'completion-at-point-functions #'cape-dabbrev)
+;;   (add-to-list 'completion-at-point-functions #'cape-file)
+;;   (add-to-list 'completion-at-point-functions #'cape-elisp-block)
+;; )
 
 ;;ignor python warnings
 (setq lsp-pyls-plugins-pycodestyle-enabled nil)
 
-;; (use-package yasnippet
-;;   :config
-;;   (add-to-list 'yas-snippet-dirs "~/.emacs.d/snippets")
-;;   (yas-global-mode 1))
-
-;; (use-package eaf
-;;   :load-path "~/.emacs.d/site-lisp/emacs-application-framework"
-;;   :custom
-;;   ; See https://github.com/emacs-eaf/emacs-application-framework/wiki/Customization
-;;   (eaf-browser-continue-where-left-off t)
-;;   (eaf-browser-enable-adblocker t)
-;;   (browse-url-browser-function 'eaf-open-browser)
-;;   :config
-;;   (defalias 'browse-web #'eaf-open-browser)
-;;   ) ;; unbind, see more in the Wiki
-;; ;;
-;; (require 'eaf-browser)
-
-
-
-(defun medibyte/ssh-db ()
-  "Medibyte SSH and DB"
-  (interactive)
-  (let ((buffer (vterm "Medibyte Term")))
-    (with-current-buffer buffer
-      (vterm-send-string "/home/inathero/Scripts/apps-db\n"))))
-
-
-(defun medibyte/sshfs ()
-  "Medibyte SSHFS"
-  (interactive)
-  (let ((user "ubuntu")
-        (host "inathero.live")
-        (remote-dir "/")
-        (local-dir "/home/inathero/maeni")
-        (key "/home/inathero/.ssh/MEDBYTEPROJECT.pem"))
-    (shell-command (format "sshfs %s@%s:%s %s -o IdentityFile=%s,allow_other" user host remote-dir local-dir key))))
-
-(defun remarkable/sshfs ()
-  "Remarkable SSHFS"
-  (interactive)
-  (let ((user "root")
-        (host "192.168.10.154")
-        (remote-dir "/")
-        (local-dir "/home/inathero/ReMarkable")
-        (key "/home/inathero/.ssh/id_rsa"))
-    (shell-command (format "sshfs %s@%s:%s %s -o IdentityFile=%s,allow_other" user host remote-dir local-dir key))))
-
-(defun medibyte/build ()
-  "Medibyte Build"
-  (interactive)
-  (async-shell-command "cd /home/inathero/Gits/book-secret-project/ && npm run build"))
-
-(defun medibyte/dev ()
-  "Medibyte Local Dev Server"
-  (interactive)
-  (async-shell-command "cd /home/inathero/Gits/book-secret-project/ && npm run dev"))
-
-(defun open-file-directory-in-file-browser ()
- (let ((process-connection-type nil))
-    (start-process ""
-                   nil
-                   "xdg-open"
-                   (url-file-directory buffer-file-name))))
-
-(map! :leader
-      :prefix "r"
-      :desc "Medibyte" "q" #'medibyte/ssh-db
-      :desc "Medibyte SSHFS" "w" #'medibyte/sshfs
-      :desc "Build Medibyte" "b" #'medibyte/build
-      )
 
 (after! projectile
   (add-to-list 'projectile-globally-ignored-directories "*dist"))
@@ -298,4 +228,69 @@
 (setq doom-themes-treemacs-theme "doom-colors")
 (add-hook 'after-init-hook #'global-emojify-mode)
 (setq projectile-enable-caching nil)
+
+
+
+(define-globalized-minor-mode my-global-rainbow-mode rainbow-mode
+  (lambda () (rainbow-mode 1)))
+
+(my-global-rainbow-mode 1)
+
+
+ (use-package vue-mode
+   :mode "\\.vue\\'"
+   :config
+   (add-hook 'vue-mode-hook #'lsp))
+
+ (add-hook 'vue-mode-hook #'fancy-dabbrev-mode)
+ (add-hook 'mmm-mode-hook
+           (lambda ()
+             (set-face-background 'mmm-default-submode-face nil)))
+
+(use-package fancy-dabbrev
+  :commands (fancy-dabbrev-mode)
+  :config
+  (setq fancy-dabbrev-preview-delay 0.0)
+  (setq fancy-dabbrev-preview-context 'before-non-word)
+
+  (setq fancy-dabbrev-expansion-on-preview-only t)
+  (setq fancy-dabbrev-indent-command 'tab-to-tab-stop)
+
+  (define-key evil-insert-state-map (kbd "<tab>") 'fancy-dabbrev-expand-or-indent))
+
+ (define-key evil-visual-state-map (kbd "v") 'er/expand-region)
+
+;; Disable window decoration
+(setq default-frame-alist '((undecorated . t)))
+(use-package nerd-icons
+  :vc (:url "https://github.com/rainstormstudio/nerd-icons.el.git"))
+
+;; (use-package nerd-icons-dired
+;;   :vc (:url "https://github.com/rainstormstudio/nerd-icons-dired.git")
+;;   :hook (dired-mode . nerd-icons-dired-mode))
+
+;; Relative line numbering
+(setq display-line-numbers-type 'relative)
+(setq bibtex-files nil)
+
+
+
+
+(defun emacs-everywhere-hyprland-app-info ()
+  "Get app info from Hyprland using hyprctl."
+  (when-let* ((window-info (shell-command-to-string "hyprctl activewindow -j"))
+              (json-data (json-read-from-string window-info)))
+    (make-instance 'emacs-everywhere-app
+                  :class-name (cdr (assoc 'class json-data))
+                  :title (cdr (assoc 'title json-data)))))
+
+(after! emacs-everywhere
+  (setq emacs-everywhere-app-info-function #'emacs-everywhere-hyprland-app-info))
+
+(setq confirm-kill-processes nil)
+(defun set-no-process-query-on-exit ()
+    (let ((proc (get-buffer-process (current-buffer))))
+    (when (processp proc)
+    (set-process-query-on-exit-flag proc nil))))
+    (add-hook 'term-exec-hook 'set-no-process-query-on-exit)
 

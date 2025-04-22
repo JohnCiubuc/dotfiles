@@ -9,36 +9,13 @@ audio_device_state:0:HW 3
 audio_device_state:0:Uncompressed Stream
 audio_device_state:0:Flac Stream
 state: stop
-current: 14
 random: 0
 repeat: 1
 single: 0
 consume: 0
 crossfade: 6
-mixrampdb: 0.000000
-mixrampdelay: -1.000000
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
 playlist_begin
-0:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/01. Converting Vegetarians.mp3
-1:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/02. Elation Station.mp3
-2:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/03. Drop Out.mp3
-3:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/04. Avratz.mp3
-4:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/05. Blink.mp3
-5:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/06. Shakawkaw.mp3
-6:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/07. Pletzturra.mp3
-7:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/08. I Wish.mp3
-8:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/09. Ballerium.mp3
-9:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/10. Selec'ta.mp3
-10:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/11. Illuminaughty.mp3
-11:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/12. Jeenge.mp3
-12:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD 2The Other Side/13. Elevation.mp3
-13:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/01. Albibeno.mp3
-14:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/02. Hush Mail.mp3
-15:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/03. Apogiffa Night.mp3
-16:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/04. Song Pong.mp3
-17:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/05. Chaplin.mp3
-18:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/06. Echonomix.mp3
-19:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/07. Scorpion Frog.mp3
-20:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/08. Deeply Disturbed.mp3
-21:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/09. Semi Nice.mp3
-22:Infected Mushroom/Infected Mushroom - 2003 - Converting Vegetarians (2CD)/CD1 Trance Side/10. Yanko Pitch.mp3
 playlist_end

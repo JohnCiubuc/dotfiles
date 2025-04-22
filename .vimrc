@@ -41,7 +41,14 @@ map <F5> :setlocal spell! spelllang=en_us<CR>
 vnoremap <C-c> :w !xclip -sel c
 
 " use system clipboard by default
-set clipboard=unnamedplus
+" set clipboard=unnamedplus
+set clipboard=unnamed,unnamedplus
+" Copy with Wayland
+xnoremap <silent> y :w !wl-copy<CR><CR>
+" Paste from Wayland
+noremap <silent> p :r !wl-paste<CR><CR>
+set paste               " Paste from a windows or from vim
+
 " disable 'do you want to load' prompt
 let g:ycm_confirm_extra_conf = 0
 let g:tex_flavor='latex'
@@ -51,12 +58,12 @@ set incsearch
 set backspace=2 " make backspace work like most other apps
 let g:livepreview_previewer = 'evince'
 
-call plug#begin('~/.vim/plugged')
-Plug 'lervag/vimtex'
-Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
-Plug 'octol/vim-cpp-enhanced-highlight'
+"call plug#begin('~/.vim/plugged')
+"Plug 'lervag/vimtex'
+"Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
+"Plug 'octol/vim-cpp-enhanced-highlight'
+"call plug#end()
 
-call plug#end()
 let maplocalleader = '\\'
 let g:cpp_class_scope_highlight = 1
 let g:cpp_member_variable_highlight = 1

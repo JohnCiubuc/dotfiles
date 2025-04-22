@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: FastAPI Get Definition
+# key: get
+# --
+@app.get("$1")
+async def $1(request: Request):

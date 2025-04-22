@@ -31,16 +31,16 @@ super + Return
    st
 # program launcher
 super + @space
-    rofi -modi drun -show drun -theme slate
+   rofi -modi drun -show drun -theme slate
 #dmenu_run
 
 # make sxhkd reload its configuration files:
 super + Escape
-	pkill -USR1 -x sxhkd
+ pkill -USR1 -x sxhkd
 
 # Edit sxhkd
 super + F1
-    st -e vim ~/.config/sxhkd/sxhkdrc
+    doom run ~/.config/sxhkd/sxhkdrc
 
 super + t
     /home/inathero/Gits/streamlinkerino/build/streamlinkerino
